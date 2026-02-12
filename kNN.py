@@ -58,7 +58,7 @@ X_test,  y_test  = scale_dataset(test, oversample=False)
 
 li = []
 
-for i in range(1, 26):
+for i in range(1, 201):
     knn_model = KNeighborsClassifier(n_neighbors=i)
     knn_model.fit(X_train, y_train)
     y_pred = knn_model.predict(X_valid)
