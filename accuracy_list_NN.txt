@@ -1,0 +1,3521 @@
+
+16 nodes, dropout 0, lr 0.01, batch size 16
+                                     precision    recall  f1-score   support
+
+           0       0.86      0.93      0.90      2250
+           1       0.94      0.89      0.91      2915
+
+    accuracy                           0.91      5165
+   macro avg       0.90      0.91      0.90      5165
+weighted avg       0.91      0.91      0.91      5165
+
+                       [0.18451540172100067, 0.9055179357528687]
+16 nodes, dropout 0, lr 0.01, batch size 32
+                                     precision    recall  f1-score   support
+
+           0       0.87      0.93      0.90      2250
+           1       0.94      0.89      0.92      2915
+
+    accuracy                           0.91      5165
+   macro avg       0.91      0.91      0.91      5165
+weighted avg       0.91      0.91      0.91      5165
+
+                       [0.17481370270252228, 0.9105517864227295]
+16 nodes, dropout 0, lr 0.01, batch size 64
+                                     precision    recall  f1-score   support
+
+           0       0.89      0.92      0.90      2250
+           1       0.93      0.91      0.92      2915
+
+    accuracy                           0.91      5165
+   macro avg       0.91      0.91      0.91      5165
+weighted avg       0.91      0.91      0.91      5165
+
+                       [0.18464159965515137, 0.9140368103981018]
+16 nodes, dropout 0, lr 0.01, batch size 128
+                                     precision    recall  f1-score   support
+
+           0       0.89      0.92      0.90      2250
+           1       0.94      0.91      0.92      2915
+
+    accuracy                           0.92      5165
+   macro avg       0.91      0.92      0.91      5165
+weighted avg       0.92      0.92      0.92      5165
+
+                       [0.17104887962341309, 0.9150048494338989]
+16 nodes, dropout 0, lr 0.005, batch size 16
+                                     precision    recall  f1-score   support
+
+           0       0.93      0.88      0.90      2250
+           1       0.91      0.95      0.93      2915
+
+    accuracy                           0.92      5165
+   macro avg       0.92      0.91      0.92      5165
+weighted avg       0.92      0.92      0.92      5165
+
+                       [0.15917448699474335, 0.9179090261459351]
+16 nodes, dropout 0, lr 0.005, batch size 32
+                                     precision    recall  f1-score   support
+
+           0       0.89      0.91      0.90      2250
+           1       0.93      0.92      0.92      2915
+
+    accuracy                           0.91      5165
+   macro avg       0.91      0.91      0.91      5165
+weighted avg       0.91      0.91      0.91      5165
+
+                       [0.17510583996772766, 0.9130687117576599]
+16 nodes, dropout 0, lr 0.005, batch size 64
+                                     precision    recall  f1-score   support
+
+           0       0.90      0.91      0.90      2250
+           1       0.93      0.92      0.92      2915
+
+    accuracy                           0.91      5165
+   macro avg       0.91      0.91      0.91      5165
+weighted avg       0.91      0.91      0.91      5165
+
+                       [0.1838632971048355, 0.9140368103981018]
+16 nodes, dropout 0, lr 0.005, batch size 128
+                                     precision    recall  f1-score   support
+
+           0       0.90      0.90      0.90      2250
+           1       0.93      0.92      0.92      2915
+
+    accuracy                           0.91      5165
+   macro avg       0.91      0.91      0.91      5165
+weighted avg       0.91      0.91      0.91      5165
+
+                       [0.17135977745056152, 0.9146175980567932]
+16 nodes, dropout 0, lr 0.001, batch size 16
+                                     precision    recall  f1-score   support
+
+           0       0.89      0.92      0.91      2250
+           1       0.94      0.91      0.93      2915
+
+    accuracy                           0.92      5165
+   macro avg       0.91      0.92      0.92      5165
+weighted avg       0.92      0.92      0.92      5165
+
+                       [0.18240535259246826, 0.9169409275054932]
+16 nodes, dropout 0, lr 0.001, batch size 32
+                                     precision    recall  f1-score   support
+
+           0       0.89      0.93      0.91      2250
+           1       0.95      0.91      0.93      2915
+
+    accuracy                           0.92      5165
+   macro avg       0.92      0.92      0.92      5165
+weighted avg       0.92      0.92      0.92      5165
+
+                       [0.16823573410511017, 0.922555685043335]
+16 nodes, dropout 0, lr 0.001, batch size 64
+                                     precision    recall  f1-score   support
+
+           0       0.91      0.90      0.90      2250
+           1       0.92      0.93      0.93      2915
+
+    accuracy                           0.92      5165
+   macro avg       0.92      0.92      0.92      5165
+weighted avg       0.92      0.92      0.92      5165
+
+                       [0.1789892017841339, 0.9175217747688293]
+16 nodes, dropout 0, lr 0.001, batch size 128
+                                     precision    recall  f1-score   support
+
+           0       0.92      0.89      0.90      2250
+           1       0.92      0.94      0.93      2915
+
+    accuracy                           0.92      5165
+   macro avg       0.92      0.91      0.92      5165
+weighted avg       0.92      0.92      0.92      5165
+
+                       [0.15321925282478333, 0.9177153706550598]
+16 nodes, dropout 0, lr 0.0005, batch size 16
+                                     precision    recall  f1-score   support
+
+           0       0.90      0.90      0.90      2250
+           1       0.92      0.93      0.92      2915
+
+    accuracy                           0.91      5165
+   macro avg       0.91      0.91      0.91      5165
+weighted avg       0.91      0.91      0.91      5165
+
+                       [0.1769164651632309, 0.9148112535476685]
+16 nodes, dropout 0, lr 0.0005, batch size 32
+                                     precision    recall  f1-score   support
+
+           0       0.88      0.94      0.91      2250
+           1       0.95      0.90      0.93      2915
+
+    accuracy                           0.92      5165
+   macro avg       0.92      0.92      0.92      5165
+weighted avg       0.92      0.92      0.92      5165
+
+                       [0.1651514768600464, 0.9200387001037598]
+16 nodes, dropout 0, lr 0.0005, batch size 64
+                                     precision    recall  f1-score   support
+
+           0       0.90      0.92      0.91      2250
+           1       0.94      0.92      0.93      2915
+
+    accuracy                           0.92      5165
+   macro avg       0.92      0.92      0.92      5165
+weighted avg       0.92      0.92      0.92      5165
+
+                       [0.16012199223041534, 0.9212003946304321]
+16 nodes, dropout 0, lr 0.0005, batch size 128
+                                     precision    recall  f1-score   support
+
+           0       0.90      0.90      0.90      2250
+           1       0.93      0.92      0.92      2915
+
+    accuracy                           0.92      5165
+   macro avg       0.91      0.91      0.91      5165
+weighted avg       0.92      0.92      0.92      5165
+
+                       [0.16963697969913483, 0.9150048494338989]
+16 nodes, dropout 0, lr 0.0001, batch size 16
+                                     precision    recall  f1-score   support
+
+           0       0.86      0.84      0.85      2250
+           1       0.88      0.89      0.88      2915
+
+    accuracy                           0.87      5165
+   macro avg       0.87      0.86      0.86      5165
+weighted avg       0.87      0.87      0.87      5165
+
+                       [0.28576532006263733, 0.867570161819458]
+16 nodes, dropout 0, lr 0.0001, batch size 32
+                                     precision    recall  f1-score   support
+
+           0       0.83      0.83      0.83      2250
+           1       0.87      0.87      0.87      2915
+
+    accuracy                           0.85      5165
+   macro avg       0.85      0.85      0.85      5165
+weighted avg       0.85      0.85      0.85      5165
+
+                       [0.32029396295547485, 0.8538238406181335]
+16 nodes, dropout 0, lr 0.0001, batch size 64
+                                     precision    recall  f1-score   support
+
+           0       0.80      0.78      0.79      2250
+           1       0.83      0.85      0.84      2915
+
+    accuracy                           0.82      5165
+   macro avg       0.81      0.81      0.81      5165
+weighted avg       0.82      0.82      0.82      5165
+
+                       [0.40158915519714355, 0.8162633180618286]
+16 nodes, dropout 0, lr 0.0001, batch size 128
+                                     precision    recall  f1-score   support
+
+           0       0.74      0.67      0.71      2250
+           1       0.77      0.82      0.79      2915
+
+    accuracy                           0.76      5165
+   macro avg       0.76      0.75      0.75      5165
+weighted avg       0.76      0.76      0.76      5165
+
+                       [0.48302048444747925, 0.7574056386947632]
+16 nodes, dropout 0.1, lr 0.01, batch size 16
+                                     precision    recall  f1-score   support
+
+           0       0.89      0.90      0.89      2250
+           1       0.92      0.91      0.92      2915
+
+    accuracy                           0.91      5165
+   macro avg       0.91      0.91      0.91      5165
+weighted avg       0.91      0.91      0.91      5165
+
+                       [0.20952068269252777, 0.9074540138244629]
+16 nodes, dropout 0.1, lr 0.01, batch size 32
+                                     precision    recall  f1-score   support
+
+           0       0.84      0.95      0.89      2250
+           1       0.96      0.86      0.91      2915
+
+    accuracy                           0.90      5165
+   macro avg       0.90      0.91      0.90      5165
+weighted avg       0.91      0.90      0.90      5165
+
+                       [0.22342157363891602, 0.9018393158912659]
+16 nodes, dropout 0.1, lr 0.01, batch size 64
+                                     precision    recall  f1-score   support
+
+           0       0.91      0.89      0.90      2250
+           1       0.92      0.94      0.93      2915
+
+    accuracy                           0.91      5165
+   macro avg       0.91      0.91      0.91      5165
+weighted avg       0.91      0.91      0.91      5165
+
+                       [0.2070329338312149, 0.9148112535476685]
+16 nodes, dropout 0.1, lr 0.01, batch size 128
+                                     precision    recall  f1-score   support
+
+           0       0.91      0.88      0.89      2250
+           1       0.91      0.94      0.92      2915
+
+    accuracy                           0.91      5165
+   macro avg       0.91      0.91      0.91      5165
+weighted avg       0.91      0.91      0.91      5165
+
+                       [0.20060186088085175, 0.910358190536499]
+16 nodes, dropout 0.1, lr 0.005, batch size 16
+                                     precision    recall  f1-score   support
+
+           0       0.87      0.93      0.90      2250
+           1       0.95      0.89      0.92      2915
+
+    accuracy                           0.91      5165
+   macro avg       0.91      0.91      0.91      5165
+weighted avg       0.91      0.91      0.91      5165
+
+                       [0.19141291081905365, 0.9105517864227295]
+16 nodes, dropout 0.1, lr 0.005, batch size 32
+                                     precision    recall  f1-score   support
+
+           0       0.89      0.90      0.90      2250
+           1       0.92      0.92      0.92      2915
+
+    accuracy                           0.91      5165
+   macro avg       0.91      0.91      0.91      5165
+weighted avg       0.91      0.91      0.91      5165
+
+                       [0.19538143277168274, 0.9086157083511353]
+16 nodes, dropout 0.1, lr 0.005, batch size 64
+                                     precision    recall  f1-score   support
+
+           0       0.88      0.91      0.90      2250
+           1       0.93      0.91      0.92      2915
+
+    accuracy                           0.91      5165
+   macro avg       0.91      0.91      0.91      5165
+weighted avg       0.91      0.91      0.91      5165
+
+                       [0.19005724787712097, 0.9091964960098267]
+16 nodes, dropout 0.1, lr 0.005, batch size 128
+                                     precision    recall  f1-score   support
+
+           0       0.93      0.87      0.90      2250
+           1       0.91      0.95      0.93      2915
+
+    accuracy                           0.91      5165
+   macro avg       0.92      0.91      0.91      5165
+weighted avg       0.91      0.91      0.91      5165
+
+                       [0.19481393694877625, 0.9142304062843323]
+16 nodes, dropout 0.1, lr 0.001, batch size 16
+                                     precision    recall  f1-score   support
+
+           0       0.91      0.88      0.90      2250
+           1       0.91      0.93      0.92      2915
+
+    accuracy                           0.91      5165
+   macro avg       0.91      0.91      0.91      5165
+weighted avg       0.91      0.91      0.91      5165
+
+                       [0.20388154685497284, 0.9097773432731628]
+16 nodes, dropout 0.1, lr 0.001, batch size 32
+                                     precision    recall  f1-score   support
+
+           0       0.88      0.91      0.89      2250
+           1       0.93      0.91      0.92      2915
+
+    accuracy                           0.91      5165
+   macro avg       0.90      0.91      0.90      5165
+weighted avg       0.91      0.91      0.91      5165
+
+                       [0.2045430690050125, 0.9060987234115601]
+16 nodes, dropout 0.1, lr 0.001, batch size 64
+                                     precision    recall  f1-score   support
+
+           0       0.92      0.87      0.89      2250
+           1       0.90      0.94      0.92      2915
+
+    accuracy                           0.91      5165
+   macro avg       0.91      0.91      0.91      5165
+weighted avg       0.91      0.91      0.91      5165
+
+                       [0.20334655046463013, 0.91074538230896]
+16 nodes, dropout 0.1, lr 0.001, batch size 128
+                                     precision    recall  f1-score   support
+
+           0       0.90      0.87      0.89      2250
+           1       0.90      0.93      0.92      2915
+
+    accuracy                           0.90      5165
+   macro avg       0.90      0.90      0.90      5165
+weighted avg       0.90      0.90      0.90      5165
+
+                       [0.21373434364795685, 0.9030009508132935]
+16 nodes, dropout 0.1, lr 0.0005, batch size 16
+                                     precision    recall  f1-score   support
+
+           0       0.89      0.92      0.90      2250
+           1       0.94      0.91      0.92      2915
+
+    accuracy                           0.91      5165
+   macro avg       0.91      0.91      0.91      5165
+weighted avg       0.91      0.91      0.91      5165
+
+                       [0.2037414312362671, 0.9140368103981018]
+16 nodes, dropout 0.1, lr 0.0005, batch size 32
+                                     precision    recall  f1-score   support
+
+           0       0.90      0.90      0.90      2250
+           1       0.92      0.92      0.92      2915
+
+    accuracy                           0.91      5165
+   macro avg       0.91      0.91      0.91      5165
+weighted avg       0.91      0.91      0.91      5165
+
+                       [0.2193724513053894, 0.9117134809494019]
+16 nodes, dropout 0.1, lr 0.0005, batch size 64
+                                     precision    recall  f1-score   support
+
+           0       0.89      0.89      0.89      2250
+           1       0.91      0.92      0.91      2915
+
+    accuracy                           0.90      5165
+   macro avg       0.90      0.90      0.90      5165
+weighted avg       0.90      0.90      0.90      5165
+
+                       [0.23376183211803436, 0.9033882021903992]
+16 nodes, dropout 0.1, lr 0.0005, batch size 128
+                                     precision    recall  f1-score   support
+
+           0       0.88      0.88      0.88      2250
+           1       0.91      0.91      0.91      2915
+
+    accuracy                           0.90      5165
+   macro avg       0.89      0.89      0.89      5165
+weighted avg       0.90      0.90      0.90      5165
+
+                       [0.24556680023670197, 0.8950629234313965]
+16 nodes, dropout 0.1, lr 0.0001, batch size 16
+                                     precision    recall  f1-score   support
+
+           0       0.86      0.83      0.84      2250
+           1       0.87      0.89      0.88      2915
+
+    accuracy                           0.87      5165
+   macro avg       0.86      0.86      0.86      5165
+weighted avg       0.87      0.87      0.87      5165
+
+                       [0.31478753685951233, 0.8660212755203247]
+16 nodes, dropout 0.1, lr 0.0001, batch size 32
+                                     precision    recall  f1-score   support
+
+           0       0.84      0.79      0.81      2250
+           1       0.84      0.88      0.86      2915
+
+    accuracy                           0.84      5165
+   macro avg       0.84      0.84      0.84      5165
+weighted avg       0.84      0.84      0.84      5165
+
+                       [0.359274685382843, 0.8412390947341919]
+16 nodes, dropout 0.1, lr 0.0001, batch size 64
+                                     precision    recall  f1-score   support
+
+           0       0.77      0.69      0.73      2250
+           1       0.78      0.84      0.81      2915
+
+    accuracy                           0.78      5165
+   macro avg       0.78      0.77      0.77      5165
+weighted avg       0.78      0.78      0.78      5165
+
+                       [0.4673265516757965, 0.7771539092063904]
+16 nodes, dropout 0.1, lr 0.0001, batch size 128
+                                     precision    recall  f1-score   support
+
+           0       0.73      0.61      0.66      2250
+           1       0.73      0.82      0.77      2915
+
+    accuracy                           0.73      5165
+   macro avg       0.73      0.72      0.72      5165
+weighted avg       0.73      0.73      0.73      5165
+
+                       [0.5223968029022217, 0.7299128770828247]
+16 nodes, dropout 0.2, lr 0.01, batch size 16
+                                     precision    recall  f1-score   support
+
+           0       0.85      0.93      0.89      2250
+           1       0.94      0.87      0.91      2915
+
+    accuracy                           0.90      5165
+   macro avg       0.90      0.90      0.90      5165
+weighted avg       0.90      0.90      0.90      5165
+
+                       [0.24989140033721924, 0.8977735042572021]
+16 nodes, dropout 0.2, lr 0.01, batch size 32
+                                     precision    recall  f1-score   support
+
+           0       0.88      0.84      0.86      2250
+           1       0.88      0.91      0.89      2915
+
+    accuracy                           0.88      5165
+   macro avg       0.88      0.87      0.87      5165
+weighted avg       0.88      0.88      0.88      5165
+
+                       [0.2651456594467163, 0.8770571351051331]
+16 nodes, dropout 0.2, lr 0.01, batch size 64
+                                     precision    recall  f1-score   support
+
+           0       0.89      0.88      0.89      2250
+           1       0.91      0.92      0.91      2915
+
+    accuracy                           0.90      5165
+   macro avg       0.90      0.90      0.90      5165
+weighted avg       0.90      0.90      0.90      5165
+
+                       [0.2357475757598877, 0.9008712768554688]
+16 nodes, dropout 0.2, lr 0.01, batch size 128
+                                     precision    recall  f1-score   support
+
+           0       0.86      0.86      0.86      2250
+           1       0.89      0.90      0.90      2915
+
+    accuracy                           0.88      5165
+   macro avg       0.88      0.88      0.88      5165
+weighted avg       0.88      0.88      0.88      5165
+
+                       [0.261518269777298, 0.8815101385116577]
+16 nodes, dropout 0.2, lr 0.005, batch size 16
+                                     precision    recall  f1-score   support
+
+           0       0.89      0.83      0.86      2250
+           1       0.87      0.92      0.90      2915
+
+    accuracy                           0.88      5165
+   macro avg       0.88      0.88      0.88      5165
+weighted avg       0.88      0.88      0.88      5165
+
+                       [0.24354155361652374, 0.8818973898887634]
+16 nodes, dropout 0.2, lr 0.005, batch size 32
+                                     precision    recall  f1-score   support
+
+           0       0.86      0.88      0.87      2250
+           1       0.91      0.89      0.90      2915
+
+    accuracy                           0.88      5165
+   macro avg       0.88      0.88      0.88      5165
+weighted avg       0.89      0.88      0.88      5165
+
+                       [0.24440251290798187, 0.8848015666007996]
+16 nodes, dropout 0.2, lr 0.005, batch size 64
+                                     precision    recall  f1-score   support
+
+           0       0.87      0.87      0.87      2250
+           1       0.90      0.90      0.90      2915
+
+    accuracy                           0.89      5165
+   macro avg       0.88      0.88      0.88      5165
+weighted avg       0.89      0.89      0.89      5165
+
+                       [0.2520119249820709, 0.8855760097503662]
+16 nodes, dropout 0.2, lr 0.005, batch size 128
+                                     precision    recall  f1-score   support
+
+           0       0.90      0.85      0.87      2250
+           1       0.89      0.93      0.91      2915
+
+    accuracy                           0.89      5165
+   macro avg       0.89      0.89      0.89      5165
+weighted avg       0.89      0.89      0.89      5165
+
+                       [0.24161571264266968, 0.8931267857551575]
+16 nodes, dropout 0.2, lr 0.001, batch size 16
+                                     precision    recall  f1-score   support
+
+           0       0.92      0.86      0.89      2250
+           1       0.90      0.94      0.92      2915
+
+    accuracy                           0.91      5165
+   macro avg       0.91      0.90      0.90      5165
+weighted avg       0.91      0.91      0.90      5165
+
+                       [0.23510630428791046, 0.9051306843757629]
+16 nodes, dropout 0.2, lr 0.001, batch size 32
+                                     precision    recall  f1-score   support
+
+           0       0.91      0.87      0.89      2250
+           1       0.90      0.93      0.92      2915
+
+    accuracy                           0.90      5165
+   macro avg       0.91      0.90      0.90      5165
+weighted avg       0.90      0.90      0.90      5165
+
+                       [0.23023097217082977, 0.904743492603302]
+16 nodes, dropout 0.2, lr 0.001, batch size 64
+                                     precision    recall  f1-score   support
+
+           0       0.89      0.84      0.87      2250
+           1       0.88      0.92      0.90      2915
+
+    accuracy                           0.89      5165
+   macro avg       0.89      0.88      0.88      5165
+weighted avg       0.89      0.89      0.89      5165
+
+                       [0.2610693573951721, 0.8855760097503662]
+16 nodes, dropout 0.2, lr 0.001, batch size 128
+                                     precision    recall  f1-score   support
+
+           0       0.90      0.85      0.87      2250
+           1       0.89      0.93      0.91      2915
+
+    accuracy                           0.89      5165
+   macro avg       0.89      0.89      0.89      5165
+weighted avg       0.89      0.89      0.89      5165
+
+                       [0.2656932771205902, 0.8915778994560242]
+16 nodes, dropout 0.2, lr 0.0005, batch size 16
+                                     precision    recall  f1-score   support
+
+           0       0.84      0.91      0.88      2250
+           1       0.93      0.87      0.90      2915
+
+    accuracy                           0.89      5165
+   macro avg       0.88      0.89      0.89      5165
+weighted avg       0.89      0.89      0.89      5165
+
+                       [0.27479907870292664, 0.88731849193573]
+16 nodes, dropout 0.2, lr 0.0005, batch size 32
+                                     precision    recall  f1-score   support
+
+           0       0.90      0.84      0.87      2250
+           1       0.88      0.93      0.90      2915
+
+    accuracy                           0.89      5165
+   macro avg       0.89      0.88      0.88      5165
+weighted avg       0.89      0.89      0.89      5165
+
+                       [0.27269965410232544, 0.8871248960494995]
+16 nodes, dropout 0.2, lr 0.0005, batch size 64
+                                     precision    recall  f1-score   support
+
+           0       0.91      0.83      0.86      2250
+           1       0.87      0.93      0.90      2915
+
+    accuracy                           0.89      5165
+   macro avg       0.89      0.88      0.88      5165
+weighted avg       0.89      0.89      0.89      5165
+
+                       [0.27981114387512207, 0.8867376446723938]
+16 nodes, dropout 0.2, lr 0.0005, batch size 128
+                                     precision    recall  f1-score   support
+
+           0       0.86      0.84      0.85      2250
+           1       0.88      0.89      0.89      2915
+
+    accuracy                           0.87      5165
+   macro avg       0.87      0.87      0.87      5165
+weighted avg       0.87      0.87      0.87      5165
+
+                       [0.2917930483818054, 0.871829628944397]
+16 nodes, dropout 0.2, lr 0.0001, batch size 16
+                                     precision    recall  f1-score   support
+
+           0       0.87      0.80      0.84      2250
+           1       0.86      0.91      0.88      2915
+
+    accuracy                           0.86      5165
+   macro avg       0.86      0.86      0.86      5165
+weighted avg       0.86      0.86      0.86      5165
+
+                       [0.3338024914264679, 0.8627299070358276]
+16 nodes, dropout 0.2, lr 0.0001, batch size 32
+                                     precision    recall  f1-score   support
+
+           0       0.82      0.76      0.79      2250
+           1       0.83      0.87      0.85      2915
+
+    accuracy                           0.82      5165
+   macro avg       0.82      0.82      0.82      5165
+weighted avg       0.82      0.82      0.82      5165
+
+                       [0.4075385332107544, 0.8224588632583618]
+16 nodes, dropout 0.2, lr 0.0001, batch size 64
+                                     precision    recall  f1-score   support
+
+           0       0.78      0.73      0.76      2250
+           1       0.80      0.84      0.82      2915
+
+    accuracy                           0.80      5165
+   macro avg       0.79      0.79      0.79      5165
+weighted avg       0.79      0.80      0.79      5165
+
+                       [0.44108355045318604, 0.7955469489097595]
+16 nodes, dropout 0.2, lr 0.0001, batch size 128
+                                     precision    recall  f1-score   support
+
+           0       0.72      0.63      0.67      2250
+           1       0.74      0.81      0.77      2915
+
+    accuracy                           0.73      5165
+   macro avg       0.73      0.72      0.72      5165
+weighted avg       0.73      0.73      0.73      5165
+
+                       [0.5254563093185425, 0.7310745120048523]
+16 nodes, dropout 0.3, lr 0.01, batch size 16
+                                     precision    recall  f1-score   support
+
+           0       0.83      0.94      0.88      2250
+           1       0.95      0.85      0.90      2915
+
+    accuracy                           0.89      5165
+   macro avg       0.89      0.90      0.89      5165
+weighted avg       0.90      0.89      0.89      5165
+
+                       [0.24904368817806244, 0.8894482254981995]
+16 nodes, dropout 0.3, lr 0.01, batch size 32
+                                     precision    recall  f1-score   support
+
+           0       0.82      0.95      0.88      2250
+           1       0.96      0.84      0.89      2915
+
+    accuracy                           0.89      5165
+   macro avg       0.89      0.90      0.89      5165
+weighted avg       0.90      0.89      0.89      5165
+
+                       [0.2637902796268463, 0.8875120878219604]
+16 nodes, dropout 0.3, lr 0.01, batch size 64
+                                     precision    recall  f1-score   support
+
+           0       0.80      0.93      0.86      2250
+           1       0.94      0.82      0.88      2915
+
+    accuracy                           0.87      5165
+   macro avg       0.87      0.88      0.87      5165
+weighted avg       0.88      0.87      0.87      5165
+
+                       [0.26354724168777466, 0.8685382604598999]
+16 nodes, dropout 0.3, lr 0.01, batch size 128
+                                     precision    recall  f1-score   support
+
+           0       0.88      0.86      0.87      2250
+           1       0.90      0.91      0.90      2915
+
+    accuracy                           0.89      5165
+   macro avg       0.89      0.89      0.89      5165
+weighted avg       0.89      0.89      0.89      5165
+
+                       [0.26216551661491394, 0.8882865309715271]
+16 nodes, dropout 0.3, lr 0.005, batch size 16
+                                     precision    recall  f1-score   support
+
+           0       0.92      0.74      0.82      2250
+           1       0.83      0.95      0.88      2915
+
+    accuracy                           0.86      5165
+   macro avg       0.87      0.84      0.85      5165
+weighted avg       0.86      0.86      0.85      5165
+
+                       [0.2687295079231262, 0.8569216132164001]
+16 nodes, dropout 0.3, lr 0.005, batch size 32
+                                     precision    recall  f1-score   support
+
+           0       0.90      0.80      0.85      2250
+           1       0.86      0.93      0.89      2915
+
+    accuracy                           0.87      5165
+   macro avg       0.88      0.87      0.87      5165
+weighted avg       0.88      0.87      0.87      5165
+
+                       [0.27786242961883545, 0.8745401501655579]
+16 nodes, dropout 0.3, lr 0.005, batch size 64
+                                     precision    recall  f1-score   support
+
+           0       0.93      0.76      0.84      2250
+           1       0.84      0.96      0.89      2915
+
+    accuracy                           0.87      5165
+   macro avg       0.89      0.86      0.87      5165
+weighted avg       0.88      0.87      0.87      5165
+
+                       [0.25575321912765503, 0.8722168207168579]
+16 nodes, dropout 0.3, lr 0.005, batch size 128
+                                     precision    recall  f1-score   support
+
+           0       0.92      0.70      0.79      2250
+           1       0.80      0.95      0.87      2915
+
+    accuracy                           0.84      5165
+   macro avg       0.86      0.83      0.83      5165
+weighted avg       0.85      0.84      0.84      5165
+
+                       [0.2705819606781006, 0.8422071933746338]
+16 nodes, dropout 0.3, lr 0.001, batch size 16
+                                     precision    recall  f1-score   support
+
+           0       0.86      0.86      0.86      2250
+           1       0.89      0.89      0.89      2915
+
+    accuracy                           0.88      5165
+   macro avg       0.88      0.88      0.88      5165
+weighted avg       0.88      0.88      0.88      5165
+
+                       [0.2820734977722168, 0.8789932131767273]
+16 nodes, dropout 0.3, lr 0.001, batch size 32
+                                     precision    recall  f1-score   support
+
+           0       0.85      0.84      0.84      2250
+           1       0.88      0.88      0.88      2915
+
+    accuracy                           0.87      5165
+   macro avg       0.86      0.86      0.86      5165
+weighted avg       0.87      0.87      0.87      5165
+
+                       [0.29189035296440125, 0.8654404878616333]
+16 nodes, dropout 0.3, lr 0.001, batch size 64
+                                     precision    recall  f1-score   support
+
+           0       0.83      0.87      0.85      2250
+           1       0.90      0.86      0.88      2915
+
+    accuracy                           0.87      5165
+   macro avg       0.86      0.87      0.86      5165
+weighted avg       0.87      0.87      0.87      5165
+
+                       [0.30319416522979736, 0.8650532364845276]
+16 nodes, dropout 0.3, lr 0.001, batch size 128
+                                     precision    recall  f1-score   support
+
+           0       0.82      0.91      0.86      2250
+           1       0.92      0.85      0.88      2915
+
+    accuracy                           0.87      5165
+   macro avg       0.87      0.88      0.87      5165
+weighted avg       0.88      0.87      0.87      5165
+
+                       [0.2917066216468811, 0.8741529583930969]
+16 nodes, dropout 0.3, lr 0.0005, batch size 16
+                                     precision    recall  f1-score   support
+
+           0       0.87      0.86      0.87      2250
+           1       0.89      0.90      0.90      2915
+
+    accuracy                           0.88      5165
+   macro avg       0.88      0.88      0.88      5165
+weighted avg       0.88      0.88      0.88      5165
+
+                       [0.29026487469673157, 0.8832526803016663]
+16 nodes, dropout 0.3, lr 0.0005, batch size 32
+                                     precision    recall  f1-score   support
+
+           0       0.86      0.90      0.88      2250
+           1       0.92      0.89      0.90      2915
+
+    accuracy                           0.89      5165
+   macro avg       0.89      0.89      0.89      5165
+weighted avg       0.89      0.89      0.89      5165
+
+                       [0.27026471495628357, 0.8909971117973328]
+16 nodes, dropout 0.3, lr 0.0005, batch size 64
+                                     precision    recall  f1-score   support
+
+           0       0.86      0.79      0.83      2250
+           1       0.85      0.90      0.87      2915
+
+    accuracy                           0.85      5165
+   macro avg       0.85      0.85      0.85      5165
+weighted avg       0.85      0.85      0.85      5165
+
+                       [0.33231276273727417, 0.8536301851272583]
+16 nodes, dropout 0.3, lr 0.0005, batch size 128
+                                     precision    recall  f1-score   support
+
+           0       0.87      0.82      0.84      2250
+           1       0.87      0.91      0.89      2915
+
+    accuracy                           0.87      5165
+   macro avg       0.87      0.86      0.87      5165
+weighted avg       0.87      0.87      0.87      5165
+
+                       [0.3212807774543762, 0.8685382604598999]
+16 nodes, dropout 0.3, lr 0.0001, batch size 16
+                                     precision    recall  f1-score   support
+
+           0       0.83      0.81      0.82      2250
+           1       0.86      0.88      0.87      2915
+
+    accuracy                           0.85      5165
+   macro avg       0.84      0.84      0.84      5165
+weighted avg       0.85      0.85      0.85      5165
+
+                       [0.3689785897731781, 0.846466600894928]
+16 nodes, dropout 0.3, lr 0.0001, batch size 32
+                                     precision    recall  f1-score   support
+
+           0       0.78      0.72      0.75      2250
+           1       0.79      0.85      0.82      2915
+
+    accuracy                           0.79      5165
+   macro avg       0.79      0.78      0.78      5165
+weighted avg       0.79      0.79      0.79      5165
+
+                       [0.4511542320251465, 0.7903194427490234]
+16 nodes, dropout 0.3, lr 0.0001, batch size 64
+                                     precision    recall  f1-score   support
+
+           0       0.79      0.67      0.72      2250
+           1       0.77      0.86      0.81      2915
+
+    accuracy                           0.78      5165
+   macro avg       0.78      0.77      0.77      5165
+weighted avg       0.78      0.78      0.77      5165
+
+                       [0.47993892431259155, 0.7775411605834961]
+16 nodes, dropout 0.3, lr 0.0001, batch size 128
+                                     precision    recall  f1-score   support
+
+           0       0.70      0.59      0.64      2250
+           1       0.72      0.80      0.76      2915
+
+    accuracy                           0.71      5165
+   macro avg       0.71      0.70      0.70      5165
+weighted avg       0.71      0.71      0.71      5165
+
+                       [0.5534012913703918, 0.7097773551940918]
+32 nodes, dropout 0, lr 0.01, batch size 16
+                                     precision    recall  f1-score   support
+
+           0       0.86      0.96      0.91      2250
+           1       0.96      0.88      0.92      2915
+
+    accuracy                           0.91      5165
+   macro avg       0.91      0.92      0.91      5165
+weighted avg       0.92      0.91      0.91      5165
+
+                       [0.2478904128074646, 0.9138431549072266]
+32 nodes, dropout 0, lr 0.01, batch size 32
+                                     precision    recall  f1-score   support
+
+           0       0.92      0.86      0.89      2250
+           1       0.90      0.94      0.92      2915
+
+    accuracy                           0.91      5165
+   macro avg       0.91      0.90      0.90      5165
+weighted avg       0.91      0.91      0.91      5165
+
+                       [0.3258568346500397, 0.9062923789024353]
+32 nodes, dropout 0, lr 0.01, batch size 64
+                                     precision    recall  f1-score   support
+
+           0       0.89      0.91      0.90      2250
+           1       0.93      0.91      0.92      2915
+
+    accuracy                           0.91      5165
+   macro avg       0.91      0.91      0.91      5165
+weighted avg       0.91      0.91      0.91      5165
+
+                       [0.27681395411491394, 0.9095837473869324]
+32 nodes, dropout 0, lr 0.01, batch size 128
+                                     precision    recall  f1-score   support
+
+           0       0.89      0.88      0.89      2250
+           1       0.91      0.92      0.91      2915
+
+    accuracy                           0.90      5165
+   macro avg       0.90      0.90      0.90      5165
+weighted avg       0.90      0.90      0.90      5165
+
+                       [0.35755088925361633, 0.9026137590408325]
+32 nodes, dropout 0, lr 0.005, batch size 16
+                                     precision    recall  f1-score   support
+
+           0       0.89      0.89      0.89      2250
+           1       0.92      0.92      0.92      2915
+
+    accuracy                           0.91      5165
+   macro avg       0.90      0.90      0.90      5165
+weighted avg       0.91      0.91      0.91      5165
+
+                       [0.3855541944503784, 0.9062923789024353]
+32 nodes, dropout 0, lr 0.005, batch size 32
+                                     precision    recall  f1-score   support
+
+           0       0.88      0.89      0.89      2250
+           1       0.92      0.91      0.91      2915
+
+    accuracy                           0.90      5165
+   macro avg       0.90      0.90      0.90      5165
+weighted avg       0.90      0.90      0.90      5165
+
+                       [0.3839329779148102, 0.9006776213645935]
+32 nodes, dropout 0, lr 0.005, batch size 64
+                                     precision    recall  f1-score   support
+
+           0       0.90      0.86      0.88      2250
+           1       0.90      0.92      0.91      2915
+
+    accuracy                           0.90      5165
+   macro avg       0.90      0.89      0.89      5165
+weighted avg       0.90      0.90      0.90      5165
+
+                       [0.37194955348968506, 0.897192656993866]
+32 nodes, dropout 0, lr 0.005, batch size 128
+                                     precision    recall  f1-score   support
+
+           0       0.89      0.89      0.89      2250
+           1       0.92      0.91      0.91      2915
+
+    accuracy                           0.90      5165
+   macro avg       0.90      0.90      0.90      5165
+weighted avg       0.90      0.90      0.90      5165
+
+                       [0.2966591715812683, 0.9030009508132935]
+32 nodes, dropout 0, lr 0.001, batch size 16
+                                     precision    recall  f1-score   support
+
+           0       0.90      0.88      0.89      2250
+           1       0.91      0.93      0.92      2915
+
+    accuracy                           0.91      5165
+   macro avg       0.91      0.90      0.90      5165
+weighted avg       0.91      0.91      0.91      5165
+
+                       [0.27406492829322815, 0.9055179357528687]
+32 nodes, dropout 0, lr 0.001, batch size 32
+                                     precision    recall  f1-score   support
+
+           0       0.90      0.88      0.89      2250
+           1       0.91      0.93      0.92      2915
+
+    accuracy                           0.91      5165
+   macro avg       0.91      0.90      0.91      5165
+weighted avg       0.91      0.91      0.91      5165
+
+                       [0.24123549461364746, 0.9068731665611267]
+32 nodes, dropout 0, lr 0.001, batch size 64
+                                     precision    recall  f1-score   support
+
+           0       0.88      0.89      0.89      2250
+           1       0.92      0.91      0.91      2915
+
+    accuracy                           0.90      5165
+   macro avg       0.90      0.90      0.90      5165
+weighted avg       0.90      0.90      0.90      5165
+
+                       [0.24399515986442566, 0.9022265076637268]
+32 nodes, dropout 0, lr 0.001, batch size 128
+                                     precision    recall  f1-score   support
+
+           0       0.89      0.91      0.90      2250
+           1       0.93      0.91      0.92      2915
+
+    accuracy                           0.91      5165
+   macro avg       0.91      0.91      0.91      5165
+weighted avg       0.91      0.91      0.91      5165
+
+                       [0.2146545797586441, 0.9101645946502686]
+32 nodes, dropout 0, lr 0.0005, batch size 16
+                                     precision    recall  f1-score   support
+
+           0       0.90      0.88      0.89      2250
+           1       0.91      0.92      0.92      2915
+
+    accuracy                           0.91      5165
+   macro avg       0.91      0.90      0.90      5165
+weighted avg       0.91      0.91      0.91      5165
+
+                       [0.22736112773418427, 0.9059051275253296]
+32 nodes, dropout 0, lr 0.0005, batch size 32
+                                     precision    recall  f1-score   support
+
+           0       0.89      0.90      0.90      2250
+           1       0.93      0.91      0.92      2915
+
+    accuracy                           0.91      5165
+   macro avg       0.91      0.91      0.91      5165
+weighted avg       0.91      0.91      0.91      5165
+
+                       [0.2245122790336609, 0.90842205286026]
+32 nodes, dropout 0, lr 0.0005, batch size 64
+                                     precision    recall  f1-score   support
+
+           0       0.90      0.88      0.89      2250
+           1       0.91      0.92      0.92      2915
+
+    accuracy                           0.90      5165
+   macro avg       0.90      0.90      0.90      5165
+weighted avg       0.90      0.90      0.90      5165
+
+                       [0.23135602474212646, 0.9049370884895325]
+32 nodes, dropout 0, lr 0.0005, batch size 128
+                                     precision    recall  f1-score   support
+
+           0       0.89      0.90      0.90      2250
+           1       0.92      0.91      0.92      2915
+
+    accuracy                           0.91      5165
+   macro avg       0.91      0.91      0.91      5165
+weighted avg       0.91      0.91      0.91      5165
+
+                       [0.20366820693016052, 0.9099709391593933]
+32 nodes, dropout 0, lr 0.0001, batch size 16
+                                     precision    recall  f1-score   support
+
+           0       0.88      0.91      0.89      2250
+           1       0.93      0.90      0.91      2915
+
+    accuracy                           0.90      5165
+   macro avg       0.90      0.90      0.90      5165
+weighted avg       0.90      0.90      0.90      5165
+
+                       [0.20054051280021667, 0.9041626453399658]
+32 nodes, dropout 0, lr 0.0001, batch size 32
+                                     precision    recall  f1-score   support
+
+           0       0.89      0.85      0.87      2250
+           1       0.89      0.92      0.91      2915
+
+    accuracy                           0.89      5165
+   macro avg       0.89      0.89      0.89      5165
+weighted avg       0.89      0.89      0.89      5165
+
+                       [0.23926249146461487, 0.8917715549468994]
+32 nodes, dropout 0, lr 0.0001, batch size 64
+                                     precision    recall  f1-score   support
+
+           0       0.84      0.85      0.84      2250
+           1       0.88      0.87      0.88      2915
+
+    accuracy                           0.86      5165
+   macro avg       0.86      0.86      0.86      5165
+weighted avg       0.86      0.86      0.86      5165
+
+                       [0.2991512417793274, 0.8633107542991638]
+32 nodes, dropout 0, lr 0.0001, batch size 128
+                                     precision    recall  f1-score   support
+
+           0       0.81      0.78      0.80      2250
+           1       0.84      0.86      0.85      2915
+
+    accuracy                           0.82      5165
+   macro avg       0.82      0.82      0.82      5165
+weighted avg       0.82      0.82      0.82      5165
+
+                       [0.3905256688594818, 0.8242013454437256]
+32 nodes, dropout 0.1, lr 0.01, batch size 16
+                                     precision    recall  f1-score   support
+
+           0       0.95      0.87      0.91      2250
+           1       0.90      0.96      0.93      2915
+
+    accuracy                           0.92      5165
+   macro avg       0.93      0.91      0.92      5165
+weighted avg       0.92      0.92      0.92      5165
+
+                       [0.14656417071819305, 0.9212003946304321]
+32 nodes, dropout 0.1, lr 0.01, batch size 32
+                                     precision    recall  f1-score   support
+
+           0       0.86      0.96      0.91      2250
+           1       0.97      0.88      0.92      2915
+
+    accuracy                           0.92      5165
+   macro avg       0.91      0.92      0.92      5165
+weighted avg       0.92      0.92      0.92      5165
+
+                       [0.151525616645813, 0.9161664843559265]
+32 nodes, dropout 0.1, lr 0.01, batch size 64
+                                     precision    recall  f1-score   support
+
+           0       0.87      0.95      0.91      2250
+           1       0.96      0.89      0.92      2915
+
+    accuracy                           0.91      5165
+   macro avg       0.91      0.92      0.91      5165
+weighted avg       0.92      0.91      0.91      5165
+
+                       [0.14205653965473175, 0.9136495590209961]
+32 nodes, dropout 0.1, lr 0.01, batch size 128
+                                     precision    recall  f1-score   support
+
+           0       0.91      0.91      0.91      2250
+           1       0.93      0.93      0.93      2915
+
+    accuracy                           0.92      5165
+   macro avg       0.92      0.92      0.92      5165
+weighted avg       0.92      0.92      0.92      5165
+
+                       [0.1508939564228058, 0.9190706610679626]
+32 nodes, dropout 0.1, lr 0.005, batch size 16
+                                     precision    recall  f1-score   support
+
+           0       0.89      0.93      0.91      2250
+           1       0.94      0.91      0.93      2915
+
+    accuracy                           0.92      5165
+   macro avg       0.92      0.92      0.92      5165
+weighted avg       0.92      0.92      0.92      5165
+
+                       [0.14371007680892944, 0.9198451042175293]
+32 nodes, dropout 0.1, lr 0.005, batch size 32
+                                     precision    recall  f1-score   support
+
+           0       0.90      0.92      0.91      2250
+           1       0.94      0.92      0.93      2915
+
+    accuracy                           0.92      5165
+   macro avg       0.92      0.92      0.92      5165
+weighted avg       0.92      0.92      0.92      5165
+
+                       [0.15814760327339172, 0.9190706610679626]
+32 nodes, dropout 0.1, lr 0.005, batch size 64
+                                     precision    recall  f1-score   support
+
+           0       0.92      0.89      0.91      2250
+           1       0.92      0.94      0.93      2915
+
+    accuracy                           0.92      5165
+   macro avg       0.92      0.92      0.92      5165
+weighted avg       0.92      0.92      0.92      5165
+
+                       [0.13590386509895325, 0.9213939905166626]
+32 nodes, dropout 0.1, lr 0.005, batch size 128
+                                     precision    recall  f1-score   support
+
+           0       0.91      0.90      0.91      2250
+           1       0.93      0.93      0.93      2915
+
+    accuracy                           0.92      5165
+   macro avg       0.92      0.92      0.92      5165
+weighted avg       0.92      0.92      0.92      5165
+
+                       [0.13429014384746552, 0.9208131432533264]
+32 nodes, dropout 0.1, lr 0.001, batch size 16
+                                     precision    recall  f1-score   support
+
+           0       0.89      0.93      0.91      2250
+           1       0.94      0.91      0.93      2915
+
+    accuracy                           0.92      5165
+   macro avg       0.92      0.92      0.92      5165
+weighted avg       0.92      0.92      0.92      5165
+
+                       [0.1435137391090393, 0.9188770651817322]
+32 nodes, dropout 0.1, lr 0.001, batch size 32
+                                     precision    recall  f1-score   support
+
+           0       0.91      0.90      0.91      2250
+           1       0.93      0.94      0.93      2915
+
+    accuracy                           0.92      5165
+   macro avg       0.92      0.92      0.92      5165
+weighted avg       0.92      0.92      0.92      5165
+
+                       [0.15130159258842468, 0.920619547367096]
+32 nodes, dropout 0.1, lr 0.001, batch size 64
+                                     precision    recall  f1-score   support
+
+           0       0.91      0.91      0.91      2250
+           1       0.93      0.93      0.93      2915
+
+    accuracy                           0.92      5165
+   macro avg       0.92      0.92      0.92      5165
+weighted avg       0.92      0.92      0.92      5165
+
+                       [0.14937853813171387, 0.9219748377799988]
+32 nodes, dropout 0.1, lr 0.001, batch size 128
+                                     precision    recall  f1-score   support
+
+           0       0.91      0.91      0.91      2250
+           1       0.93      0.93      0.93      2915
+
+    accuracy                           0.92      5165
+   macro avg       0.92      0.92      0.92      5165
+weighted avg       0.92      0.92      0.92      5165
+
+                       [0.1463935524225235, 0.9221684336662292]
+32 nodes, dropout 0.1, lr 0.0005, batch size 16
+                                     precision    recall  f1-score   support
+
+           0       0.91      0.91      0.91      2250
+           1       0.93      0.93      0.93      2915
+
+    accuracy                           0.92      5165
+   macro avg       0.92      0.92      0.92      5165
+weighted avg       0.92      0.92      0.92      5165
+
+                       [0.14786246418952942, 0.9229428768157959]
+32 nodes, dropout 0.1, lr 0.0005, batch size 32
+                                     precision    recall  f1-score   support
+
+           0       0.94      0.87      0.90      2250
+           1       0.91      0.95      0.93      2915
+
+    accuracy                           0.92      5165
+   macro avg       0.92      0.91      0.92      5165
+weighted avg       0.92      0.92      0.92      5165
+
+                       [0.15334849059581757, 0.918296217918396]
+32 nodes, dropout 0.1, lr 0.0005, batch size 64
+                                     precision    recall  f1-score   support
+
+           0       0.91      0.91      0.91      2250
+           1       0.93      0.93      0.93      2915
+
+    accuracy                           0.92      5165
+   macro avg       0.92      0.92      0.92      5165
+weighted avg       0.92      0.92      0.92      5165
+
+                       [0.1515384316444397, 0.9223620295524597]
+32 nodes, dropout 0.1, lr 0.0005, batch size 128
+                                     precision    recall  f1-score   support
+
+           0       0.91      0.90      0.91      2250
+           1       0.93      0.93      0.93      2915
+
+    accuracy                           0.92      5165
+   macro avg       0.92      0.92      0.92      5165
+weighted avg       0.92      0.92      0.92      5165
+
+                       [0.16392464935779572, 0.9204259514808655]
+32 nodes, dropout 0.1, lr 0.0001, batch size 16
+                                     precision    recall  f1-score   support
+
+           0       0.92      0.88      0.90      2250
+           1       0.91      0.94      0.93      2915
+
+    accuracy                           0.91      5165
+   macro avg       0.91      0.91      0.91      5165
+weighted avg       0.91      0.91      0.91      5165
+
+                       [0.20295332372188568, 0.9140368103981018]
+32 nodes, dropout 0.1, lr 0.0001, batch size 32
+                                     precision    recall  f1-score   support
+
+           0       0.88      0.87      0.88      2250
+           1       0.90      0.91      0.91      2915
+
+    accuracy                           0.89      5165
+   macro avg       0.89      0.89      0.89      5165
+weighted avg       0.89      0.89      0.89      5165
+
+                       [0.24618715047836304, 0.8923523426055908]
+32 nodes, dropout 0.1, lr 0.0001, batch size 64
+                                     precision    recall  f1-score   support
+
+           0       0.84      0.82      0.83      2250
+           1       0.86      0.88      0.87      2915
+
+    accuracy                           0.85      5165
+   macro avg       0.85      0.85      0.85      5165
+weighted avg       0.85      0.85      0.85      5165
+
+                       [0.33567070960998535, 0.8526621460914612]
+32 nodes, dropout 0.1, lr 0.0001, batch size 128
+                                     precision    recall  f1-score   support
+
+           0       0.81      0.76      0.78      2250
+           1       0.82      0.86      0.84      2915
+
+    accuracy                           0.82      5165
+   macro avg       0.81      0.81      0.81      5165
+weighted avg       0.82      0.82      0.81      5165
+
+                       [0.40542465448379517, 0.8156824707984924]
+32 nodes, dropout 0.2, lr 0.01, batch size 16
+                                     precision    recall  f1-score   support
+
+           0       0.90      0.91      0.91      2250
+           1       0.93      0.93      0.93      2915
+
+    accuracy                           0.92      5165
+   macro avg       0.92      0.92      0.92      5165
+weighted avg       0.92      0.92      0.92      5165
+
+                       [0.17804847657680511, 0.9192642569541931]
+32 nodes, dropout 0.2, lr 0.01, batch size 32
+                                     precision    recall  f1-score   support
+
+           0       0.89      0.93      0.91      2250
+           1       0.94      0.91      0.93      2915
+
+    accuracy                           0.92      5165
+   macro avg       0.92      0.92      0.92      5165
+weighted avg       0.92      0.92      0.92      5165
+
+                       [0.15858034789562225, 0.9190706610679626]
+32 nodes, dropout 0.2, lr 0.01, batch size 64
+                                     precision    recall  f1-score   support
+
+           0       0.91      0.89      0.90      2250
+           1       0.92      0.93      0.93      2915
+
+    accuracy                           0.91      5165
+   macro avg       0.91      0.91      0.91      5165
+weighted avg       0.91      0.91      0.91      5165
+
+                       [0.15919391810894012, 0.9148112535476685]
+32 nodes, dropout 0.2, lr 0.01, batch size 128
+                                     precision    recall  f1-score   support
+
+           0       0.89      0.94      0.91      2250
+           1       0.95      0.91      0.93      2915
+
+    accuracy                           0.92      5165
+   macro avg       0.92      0.92      0.92      5165
+weighted avg       0.92      0.92      0.92      5165
+
+                       [0.1436007171869278, 0.9213939905166626]
+32 nodes, dropout 0.2, lr 0.005, batch size 16
+                                     precision    recall  f1-score   support
+
+           0       0.94      0.88      0.91      2250
+           1       0.91      0.95      0.93      2915
+
+    accuracy                           0.92      5165
+   macro avg       0.92      0.92      0.92      5165
+weighted avg       0.92      0.92      0.92      5165
+
+                       [0.1584564447402954, 0.920232355594635]
+32 nodes, dropout 0.2, lr 0.005, batch size 32
+                                     precision    recall  f1-score   support
+
+           0       0.90      0.92      0.91      2250
+           1       0.94      0.92      0.93      2915
+
+    accuracy                           0.92      5165
+   macro avg       0.92      0.92      0.92      5165
+weighted avg       0.92      0.92      0.92      5165
+
+                       [0.15220223367214203, 0.9208131432533264]
+32 nodes, dropout 0.2, lr 0.005, batch size 64
+                                     precision    recall  f1-score   support
+
+           0       0.95      0.88      0.91      2250
+           1       0.91      0.96      0.94      2915
+
+    accuracy                           0.93      5165
+   macro avg       0.93      0.92      0.92      5165
+weighted avg       0.93      0.93      0.92      5165
+
+                       [0.14890611171722412, 0.9252662062644958]
+32 nodes, dropout 0.2, lr 0.005, batch size 128
+                                     precision    recall  f1-score   support
+
+           0       0.91      0.90      0.90      2250
+           1       0.92      0.93      0.93      2915
+
+    accuracy                           0.92      5165
+   macro avg       0.92      0.91      0.92      5165
+weighted avg       0.92      0.92      0.92      5165
+
+                       [0.1510503888130188, 0.9165537357330322]
+32 nodes, dropout 0.2, lr 0.001, batch size 16
+                                     precision    recall  f1-score   support
+
+           0       0.89      0.93      0.91      2250
+           1       0.94      0.91      0.93      2915
+
+    accuracy                           0.92      5165
+   macro avg       0.92      0.92      0.92      5165
+weighted avg       0.92      0.92      0.92      5165
+
+                       [0.15137308835983276, 0.9186834692955017]
+32 nodes, dropout 0.2, lr 0.001, batch size 32
+                                     precision    recall  f1-score   support
+
+           0       0.88      0.93      0.91      2250
+           1       0.94      0.91      0.92      2915
+
+    accuracy                           0.92      5165
+   macro avg       0.91      0.92      0.92      5165
+weighted avg       0.92      0.92      0.92      5165
+
+                       [0.15998539328575134, 0.9163601398468018]
+32 nodes, dropout 0.2, lr 0.001, batch size 64
+                                     precision    recall  f1-score   support
+
+           0       0.92      0.89      0.91      2250
+           1       0.92      0.94      0.93      2915
+
+    accuracy                           0.92      5165
+   macro avg       0.92      0.92      0.92      5165
+weighted avg       0.92      0.92      0.92      5165
+
+                       [0.16159769892692566, 0.920232355594635]
+32 nodes, dropout 0.2, lr 0.001, batch size 128
+                                     precision    recall  f1-score   support
+
+           0       0.90      0.92      0.91      2250
+           1       0.94      0.92      0.93      2915
+
+    accuracy                           0.92      5165
+   macro avg       0.92      0.92      0.92      5165
+weighted avg       0.92      0.92      0.92      5165
+
+                       [0.16349516808986664, 0.9196515083312988]
+32 nodes, dropout 0.2, lr 0.0005, batch size 16
+                                     precision    recall  f1-score   support
+
+           0       0.91      0.89      0.90      2250
+           1       0.92      0.94      0.93      2915
+
+    accuracy                           0.92      5165
+   macro avg       0.92      0.91      0.91      5165
+weighted avg       0.92      0.92      0.92      5165
+
+                       [0.16794316470623016, 0.9155856966972351]
+32 nodes, dropout 0.2, lr 0.0005, batch size 32
+                                     precision    recall  f1-score   support
+
+           0       0.89      0.92      0.91      2250
+           1       0.93      0.92      0.93      2915
+
+    accuracy                           0.92      5165
+   macro avg       0.91      0.92      0.92      5165
+weighted avg       0.92      0.92      0.92      5165
+
+                       [0.16658513247966766, 0.9163601398468018]
+32 nodes, dropout 0.2, lr 0.0005, batch size 64
+                                     precision    recall  f1-score   support
+
+           0       0.90      0.91      0.90      2250
+           1       0.93      0.92      0.92      2915
+
+    accuracy                           0.92      5165
+   macro avg       0.91      0.91      0.91      5165
+weighted avg       0.92      0.92      0.92      5165
+
+                       [0.1812266856431961, 0.9153920412063599]
+32 nodes, dropout 0.2, lr 0.0005, batch size 128
+                                     precision    recall  f1-score   support
+
+           0       0.89      0.91      0.90      2250
+           1       0.93      0.92      0.92      2915
+
+    accuracy                           0.92      5165
+   macro avg       0.91      0.92      0.91      5165
+weighted avg       0.92      0.92      0.92      5165
+
+                       [0.19063571095466614, 0.9153920412063599]
+32 nodes, dropout 0.2, lr 0.0001, batch size 16
+                                     precision    recall  f1-score   support
+
+           0       0.90      0.87      0.88      2250
+           1       0.90      0.92      0.91      2915
+
+    accuracy                           0.90      5165
+   macro avg       0.90      0.90      0.90      5165
+weighted avg       0.90      0.90      0.90      5165
+
+                       [0.23853059113025665, 0.8985479474067688]
+32 nodes, dropout 0.2, lr 0.0001, batch size 32
+                                     precision    recall  f1-score   support
+
+           0       0.88      0.86      0.87      2250
+           1       0.89      0.91      0.90      2915
+
+    accuracy                           0.89      5165
+   macro avg       0.89      0.88      0.88      5165
+weighted avg       0.89      0.89      0.89      5165
+
+                       [0.2752157151699066, 0.8869312405586243]
+32 nodes, dropout 0.2, lr 0.0001, batch size 64
+                                     precision    recall  f1-score   support
+
+           0       0.84      0.81      0.83      2250
+           1       0.86      0.89      0.87      2915
+
+    accuracy                           0.85      5165
+   macro avg       0.85      0.85      0.85      5165
+weighted avg       0.85      0.85      0.85      5165
+
+                       [0.3467133045196533, 0.8530493974685669]
+32 nodes, dropout 0.2, lr 0.0001, batch size 128
+                                     precision    recall  f1-score   support
+
+           0       0.79      0.72      0.75      2250
+           1       0.80      0.85      0.82      2915
+
+    accuracy                           0.79      5165
+   macro avg       0.79      0.78      0.79      5165
+weighted avg       0.79      0.79      0.79      5165
+
+                       [0.45602744817733765, 0.7930300235748291]
+32 nodes, dropout 0.3, lr 0.01, batch size 16
+                                     precision    recall  f1-score   support
+
+           0       0.86      0.94      0.90      2250
+           1       0.95      0.88      0.92      2915
+
+    accuracy                           0.91      5165
+   macro avg       0.91      0.91      0.91      5165
+weighted avg       0.91      0.91      0.91      5165
+
+                       [0.18531551957130432, 0.9105517864227295]
+32 nodes, dropout 0.3, lr 0.01, batch size 32
+                                     precision    recall  f1-score   support
+
+           0       0.96      0.84      0.89      2250
+           1       0.89      0.97      0.93      2915
+
+    accuracy                           0.91      5165
+   macro avg       0.92      0.91      0.91      5165
+weighted avg       0.92      0.91      0.91      5165
+
+                       [0.16961786150932312, 0.9136495590209961]
+32 nodes, dropout 0.3, lr 0.01, batch size 64
+                                     precision    recall  f1-score   support
+
+           0       0.92      0.88      0.90      2250
+           1       0.91      0.94      0.93      2915
+
+    accuracy                           0.92      5165
+   macro avg       0.92      0.91      0.91      5165
+weighted avg       0.92      0.92      0.92      5165
+
+                       [0.16395872831344604, 0.9157792925834656]
+32 nodes, dropout 0.3, lr 0.01, batch size 128
+                                     precision    recall  f1-score   support
+
+           0       0.94      0.86      0.90      2250
+           1       0.90      0.96      0.92      2915
+
+    accuracy                           0.91      5165
+   macro avg       0.92      0.91      0.91      5165
+weighted avg       0.91      0.91      0.91      5165
+
+                       [0.17089852690696716, 0.9124879240989685]
+32 nodes, dropout 0.3, lr 0.005, batch size 16
+                                     precision    recall  f1-score   support
+
+           0       0.87      0.93      0.90      2250
+           1       0.95      0.89      0.92      2915
+
+    accuracy                           0.91      5165
+   macro avg       0.91      0.91      0.91      5165
+weighted avg       0.91      0.91      0.91      5165
+
+                       [0.1551908552646637, 0.91074538230896]
+32 nodes, dropout 0.3, lr 0.005, batch size 32
+                                     precision    recall  f1-score   support
+
+           0       0.91      0.91      0.91      2250
+           1       0.93      0.93      0.93      2915
+
+    accuracy                           0.92      5165
+   macro avg       0.92      0.92      0.92      5165
+weighted avg       0.92      0.92      0.92      5165
+
+                       [0.17247310280799866, 0.9179090261459351]
+32 nodes, dropout 0.3, lr 0.005, batch size 64
+                                     precision    recall  f1-score   support
+
+           0       0.90      0.90      0.90      2250
+           1       0.92      0.92      0.92      2915
+
+    accuracy                           0.91      5165
+   macro avg       0.91      0.91      0.91      5165
+weighted avg       0.91      0.91      0.91      5165
+
+                       [0.17855703830718994, 0.9136495590209961]
+32 nodes, dropout 0.3, lr 0.005, batch size 128
+                                     precision    recall  f1-score   support
+
+           0       0.89      0.92      0.90      2250
+           1       0.94      0.91      0.92      2915
+
+    accuracy                           0.92      5165
+   macro avg       0.91      0.92      0.91      5165
+weighted avg       0.92      0.92      0.92      5165
+
+                       [0.16659517586231232, 0.9153920412063599]
+32 nodes, dropout 0.3, lr 0.001, batch size 16
+                                     precision    recall  f1-score   support
+
+           0       0.93      0.87      0.90      2250
+           1       0.91      0.95      0.93      2915
+
+    accuracy                           0.92      5165
+   macro avg       0.92      0.91      0.91      5165
+weighted avg       0.92      0.92      0.92      5165
+
+                       [0.18129253387451172, 0.9169409275054932]
+32 nodes, dropout 0.3, lr 0.001, batch size 32
+                                     precision    recall  f1-score   support
+
+           0       0.90      0.91      0.90      2250
+           1       0.93      0.92      0.93      2915
+
+    accuracy                           0.92      5165
+   macro avg       0.91      0.92      0.91      5165
+weighted avg       0.92      0.92      0.92      5165
+
+                       [0.16680961847305298, 0.915972888469696]
+32 nodes, dropout 0.3, lr 0.001, batch size 64
+                                     precision    recall  f1-score   support
+
+           0       0.90      0.91      0.90      2250
+           1       0.93      0.92      0.93      2915
+
+    accuracy                           0.92      5165
+   macro avg       0.91      0.91      0.91      5165
+weighted avg       0.92      0.92      0.92      5165
+
+                       [0.17227864265441895, 0.915972888469696]
+32 nodes, dropout 0.3, lr 0.001, batch size 128
+                                     precision    recall  f1-score   support
+
+           0       0.90      0.92      0.91      2250
+           1       0.94      0.92      0.93      2915
+
+    accuracy                           0.92      5165
+   macro avg       0.92      0.92      0.92      5165
+weighted avg       0.92      0.92      0.92      5165
+
+                       [0.17698584496974945, 0.9200387001037598]
+32 nodes, dropout 0.3, lr 0.0005, batch size 16
+                                     precision    recall  f1-score   support
+
+           0       0.91      0.91      0.91      2250
+           1       0.93      0.93      0.93      2915
+
+    accuracy                           0.92      5165
+   macro avg       0.92      0.92      0.92      5165
+weighted avg       0.92      0.92      0.92      5165
+
+                       [0.1681285947561264, 0.9223620295524597]
+32 nodes, dropout 0.3, lr 0.0005, batch size 32
+                                     precision    recall  f1-score   support
+
+           0       0.90      0.91      0.91      2250
+           1       0.93      0.93      0.93      2915
+
+    accuracy                           0.92      5165
+   macro avg       0.92      0.92      0.92      5165
+weighted avg       0.92      0.92      0.92      5165
+
+                       [0.17782443761825562, 0.9190706610679626]
+32 nodes, dropout 0.3, lr 0.0005, batch size 64
+                                     precision    recall  f1-score   support
+
+           0       0.90      0.90      0.90      2250
+           1       0.93      0.93      0.93      2915
+
+    accuracy                           0.92      5165
+   macro avg       0.91      0.91      0.91      5165
+weighted avg       0.92      0.92      0.92      5165
+
+                       [0.19323189556598663, 0.9155856966972351]
+32 nodes, dropout 0.3, lr 0.0005, batch size 128
+                                     precision    recall  f1-score   support
+
+           0       0.90      0.88      0.89      2250
+           1       0.91      0.92      0.92      2915
+
+    accuracy                           0.91      5165
+   macro avg       0.90      0.90      0.90      5165
+weighted avg       0.91      0.91      0.91      5165
+
+                       [0.2156291902065277, 0.9051306843757629]
+32 nodes, dropout 0.3, lr 0.0001, batch size 16
+                                     precision    recall  f1-score   support
+
+           0       0.89      0.86      0.88      2250
+           1       0.89      0.92      0.91      2915
+
+    accuracy                           0.89      5165
+   macro avg       0.89      0.89      0.89      5165
+weighted avg       0.89      0.89      0.89      5165
+
+                       [0.2664475739002228, 0.8933204412460327]
+32 nodes, dropout 0.3, lr 0.0001, batch size 32
+                                     precision    recall  f1-score   support
+
+           0       0.86      0.81      0.84      2250
+           1       0.86      0.90      0.88      2915
+
+    accuracy                           0.86      5165
+   macro avg       0.86      0.86      0.86      5165
+weighted avg       0.86      0.86      0.86      5165
+
+                       [0.3253084719181061, 0.861955463886261]
+32 nodes, dropout 0.3, lr 0.0001, batch size 64
+                                     precision    recall  f1-score   support
+
+           0       0.84      0.75      0.79      2250
+           1       0.82      0.89      0.85      2915
+
+    accuracy                           0.83      5165
+   macro avg       0.83      0.82      0.82      5165
+weighted avg       0.83      0.83      0.83      5165
+
+                       [0.38863226771354675, 0.8282671570777893]
+32 nodes, dropout 0.3, lr 0.0001, batch size 128
+                                     precision    recall  f1-score   support
+
+           0       0.77      0.66      0.71      2250
+           1       0.76      0.85      0.80      2915
+
+    accuracy                           0.77      5165
+   macro avg       0.77      0.75      0.76      5165
+weighted avg       0.77      0.77      0.76      5165
+
+                       [0.4831213057041168, 0.7668925523757935]
+64 nodes, dropout 0, lr 0.01, batch size 16
+                                     precision    recall  f1-score   support
+
+           0       0.93      0.86      0.90      2250
+           1       0.90      0.95      0.93      2915
+
+    accuracy                           0.91      5165
+   macro avg       0.92      0.91      0.91      5165
+weighted avg       0.91      0.91      0.91      5165
+
+                       [0.393703430891037, 0.9136495590209961]
+64 nodes, dropout 0, lr 0.01, batch size 32
+                                     precision    recall  f1-score   support
+
+           0       0.88      0.90      0.89      2250
+           1       0.92      0.91      0.91      2915
+
+    accuracy                           0.90      5165
+   macro avg       0.90      0.90      0.90      5165
+weighted avg       0.90      0.90      0.90      5165
+
+                       [0.6570929288864136, 0.9020329117774963]
+64 nodes, dropout 0, lr 0.01, batch size 64
+                                     precision    recall  f1-score   support
+
+           0       0.87      0.89      0.88      2250
+           1       0.91      0.89      0.90      2915
+
+    accuracy                           0.89      5165
+   macro avg       0.89      0.89      0.89      5165
+weighted avg       0.89      0.89      0.89      5165
+
+                       [0.6063830852508545, 0.8919651508331299]
+64 nodes, dropout 0, lr 0.01, batch size 128
+                                     precision    recall  f1-score   support
+
+           0       0.86      0.89      0.87      2250
+           1       0.91      0.89      0.90      2915
+
+    accuracy                           0.89      5165
+   macro avg       0.89      0.89      0.89      5165
+weighted avg       0.89      0.89      0.89      5165
+
+                       [0.7486652135848999, 0.8894482254981995]
+64 nodes, dropout 0, lr 0.005, batch size 16
+                                     precision    recall  f1-score   support
+
+           0       0.88      0.88      0.88      2250
+           1       0.91      0.91      0.91      2915
+
+    accuracy                           0.89      5165
+   macro avg       0.89      0.89      0.89      5165
+weighted avg       0.89      0.89      0.89      5165
+
+                       [0.7889015674591064, 0.8937076330184937]
+64 nodes, dropout 0, lr 0.005, batch size 32
+                                     precision    recall  f1-score   support
+
+           0       0.87      0.88      0.88      2250
+           1       0.91      0.90      0.90      2915
+
+    accuracy                           0.89      5165
+   macro avg       0.89      0.89      0.89      5165
+weighted avg       0.89      0.89      0.89      5165
+
+                       [0.7565038204193115, 0.890609860420227]
+64 nodes, dropout 0, lr 0.005, batch size 64
+                                     precision    recall  f1-score   support
+
+           0       0.88      0.86      0.87      2250
+           1       0.89      0.91      0.90      2915
+
+    accuracy                           0.89      5165
+   macro avg       0.89      0.89      0.89      5165
+weighted avg       0.89      0.89      0.89      5165
+
+                       [0.8065747618675232, 0.8894482254981995]
+64 nodes, dropout 0, lr 0.005, batch size 128
+                                     precision    recall  f1-score   support
+
+           0       0.86      0.88      0.87      2250
+           1       0.90      0.89      0.90      2915
+
+    accuracy                           0.88      5165
+   macro avg       0.88      0.88      0.88      5165
+weighted avg       0.88      0.88      0.88      5165
+
+                       [0.6374053359031677, 0.8834462761878967]
+64 nodes, dropout 0, lr 0.001, batch size 16
+                                     precision    recall  f1-score   support
+
+           0       0.87      0.88      0.87      2250
+           1       0.90      0.90      0.90      2915
+
+    accuracy                           0.89      5165
+   macro avg       0.89      0.89      0.89      5165
+weighted avg       0.89      0.89      0.89      5165
+
+                       [0.7162492275238037, 0.8875120878219604]
+64 nodes, dropout 0, lr 0.001, batch size 32
+                                     precision    recall  f1-score   support
+
+           0       0.86      0.89      0.87      2250
+           1       0.91      0.89      0.90      2915
+
+    accuracy                           0.89      5165
+   macro avg       0.89      0.89      0.89      5165
+weighted avg       0.89      0.89      0.89      5165
+
+                       [0.4940972328186035, 0.8884801268577576]
+64 nodes, dropout 0, lr 0.001, batch size 64
+                                     precision    recall  f1-score   support
+
+           0       0.88      0.88      0.88      2250
+           1       0.91      0.91      0.91      2915
+
+    accuracy                           0.90      5165
+   macro avg       0.90      0.90      0.90      5165
+weighted avg       0.90      0.90      0.90      5165
+
+                       [0.4143494665622711, 0.8977735042572021]
+64 nodes, dropout 0, lr 0.001, batch size 128
+                                     precision    recall  f1-score   support
+
+           0       0.88      0.89      0.89      2250
+           1       0.92      0.90      0.91      2915
+
+    accuracy                           0.90      5165
+   macro avg       0.90      0.90      0.90      5165
+weighted avg       0.90      0.90      0.90      5165
+
+                       [0.37087684869766235, 0.8995159864425659]
+64 nodes, dropout 0, lr 0.0005, batch size 16
+                                     precision    recall  f1-score   support
+
+           0       0.86      0.89      0.87      2250
+           1       0.91      0.89      0.90      2915
+
+    accuracy                           0.89      5165
+   macro avg       0.89      0.89      0.89      5165
+weighted avg       0.89      0.89      0.89      5165
+
+                       [0.448030561208725, 0.8888673782348633]
+64 nodes, dropout 0, lr 0.0005, batch size 32
+                                     precision    recall  f1-score   support
+
+           0       0.88      0.89      0.88      2250
+           1       0.91      0.91      0.91      2915
+
+    accuracy                           0.90      5165
+   macro avg       0.90      0.90      0.90      5165
+weighted avg       0.90      0.90      0.90      5165
+
+                       [0.36026668548583984, 0.8989351391792297]
+64 nodes, dropout 0, lr 0.0005, batch size 64
+                                     precision    recall  f1-score   support
+
+           0       0.89      0.86      0.88      2250
+           1       0.90      0.92      0.91      2915
+
+    accuracy                           0.89      5165
+   macro avg       0.89      0.89      0.89      5165
+weighted avg       0.89      0.89      0.89      5165
+
+                       [0.37002965807914734, 0.8927395939826965]
+64 nodes, dropout 0, lr 0.0005, batch size 128
+                                     precision    recall  f1-score   support
+
+           0       0.87      0.91      0.89      2250
+           1       0.93      0.89      0.91      2915
+
+    accuracy                           0.90      5165
+   macro avg       0.90      0.90      0.90      5165
+weighted avg       0.90      0.90      0.90      5165
+
+                       [0.3266313970088959, 0.8997095823287964]
+64 nodes, dropout 0, lr 0.0001, batch size 16
+                                     precision    recall  f1-score   support
+
+           0       0.87      0.89      0.88      2250
+           1       0.91      0.90      0.91      2915
+
+    accuracy                           0.90      5165
+   macro avg       0.89      0.89      0.89      5165
+weighted avg       0.90      0.90      0.90      5165
+
+                       [0.2845432162284851, 0.8956437706947327]
+64 nodes, dropout 0, lr 0.0001, batch size 32
+                                     precision    recall  f1-score   support
+
+           0       0.87      0.89      0.88      2250
+           1       0.91      0.90      0.91      2915
+
+    accuracy                           0.90      5165
+   macro avg       0.89      0.89      0.89      5165
+weighted avg       0.90      0.90      0.90      5165
+
+                       [0.25373056530952454, 0.8950629234313965]
+64 nodes, dropout 0, lr 0.0001, batch size 64
+                                     precision    recall  f1-score   support
+
+           0       0.89      0.87      0.88      2250
+           1       0.90      0.92      0.91      2915
+
+    accuracy                           0.89      5165
+   macro avg       0.89      0.89      0.89      5165
+weighted avg       0.89      0.89      0.89      5165
+
+                       [0.23407557606697083, 0.8940948843955994]
+64 nodes, dropout 0, lr 0.0001, batch size 128
+                                     precision    recall  f1-score   support
+
+           0       0.85      0.86      0.86      2250
+           1       0.89      0.88      0.89      2915
+
+    accuracy                           0.87      5165
+   macro avg       0.87      0.87      0.87      5165
+weighted avg       0.87      0.87      0.87      5165
+
+                       [0.27218693494796753, 0.8733785152435303]
+64 nodes, dropout 0.1, lr 0.01, batch size 16
+                                     precision    recall  f1-score   support
+
+           0       0.96      0.86      0.91      2250
+           1       0.90      0.97      0.93      2915
+
+    accuracy                           0.92      5165
+   macro avg       0.93      0.91      0.92      5165
+weighted avg       0.92      0.92      0.92      5165
+
+                       [0.20992983877658844, 0.9219748377799988]
+64 nodes, dropout 0.1, lr 0.01, batch size 32
+                                     precision    recall  f1-score   support
+
+           0       0.95      0.86      0.91      2250
+           1       0.90      0.96      0.93      2915
+
+    accuracy                           0.92      5165
+   macro avg       0.93      0.91      0.92      5165
+weighted avg       0.92      0.92      0.92      5165
+
+                       [0.1562092900276184, 0.9210067987442017]
+64 nodes, dropout 0.1, lr 0.01, batch size 64
+                                     precision    recall  f1-score   support
+
+           0       0.89      0.92      0.90      2250
+           1       0.94      0.91      0.92      2915
+
+    accuracy                           0.92      5165
+   macro avg       0.91      0.92      0.91      5165
+weighted avg       0.92      0.92      0.92      5165
+
+                       [0.175956130027771, 0.9155856966972351]
+64 nodes, dropout 0.1, lr 0.01, batch size 128
+                                     precision    recall  f1-score   support
+
+           0       0.89      0.92      0.90      2250
+           1       0.94      0.91      0.92      2915
+
+    accuracy                           0.91      5165
+   macro avg       0.91      0.91      0.91      5165
+weighted avg       0.91      0.91      0.91      5165
+
+                       [0.16684262454509735, 0.9132623672485352]
+64 nodes, dropout 0.1, lr 0.005, batch size 16
+                                     precision    recall  f1-score   support
+
+           0       0.93      0.88      0.91      2250
+           1       0.91      0.95      0.93      2915
+
+    accuracy                           0.92      5165
+   macro avg       0.92      0.92      0.92      5165
+weighted avg       0.92      0.92      0.92      5165
+
+                       [0.18158800899982452, 0.9200387001037598]
+64 nodes, dropout 0.1, lr 0.005, batch size 32
+                                     precision    recall  f1-score   support
+
+           0       0.90      0.90      0.90      2250
+           1       0.92      0.93      0.92      2915
+
+    accuracy                           0.91      5165
+   macro avg       0.91      0.91      0.91      5165
+weighted avg       0.91      0.91      0.91      5165
+
+                       [0.17092680931091309, 0.9134559631347656]
+64 nodes, dropout 0.1, lr 0.005, batch size 64
+                                     precision    recall  f1-score   support
+
+           0       0.90      0.90      0.90      2250
+           1       0.92      0.92      0.92      2915
+
+    accuracy                           0.91      5165
+   macro avg       0.91      0.91      0.91      5165
+weighted avg       0.91      0.91      0.91      5165
+
+                       [0.18318778276443481, 0.9128751158714294]
+64 nodes, dropout 0.1, lr 0.005, batch size 128
+                                     precision    recall  f1-score   support
+
+           0       0.91      0.90      0.90      2250
+           1       0.92      0.93      0.92      2915
+
+    accuracy                           0.91      5165
+   macro avg       0.91      0.91      0.91      5165
+weighted avg       0.91      0.91      0.91      5165
+
+                       [0.173377126455307, 0.9146175980567932]
+64 nodes, dropout 0.1, lr 0.001, batch size 16
+                                     precision    recall  f1-score   support
+
+           0       0.92      0.87      0.90      2250
+           1       0.91      0.94      0.92      2915
+
+    accuracy                           0.91      5165
+   macro avg       0.91      0.91      0.91      5165
+weighted avg       0.91      0.91      0.91      5165
+
+                       [0.20519492030143738, 0.9121006727218628]
+64 nodes, dropout 0.1, lr 0.001, batch size 32
+                                     precision    recall  f1-score   support
+
+           0       0.91      0.89      0.90      2250
+           1       0.91      0.93      0.92      2915
+
+    accuracy                           0.91      5165
+   macro avg       0.91      0.91      0.91      5165
+weighted avg       0.91      0.91      0.91      5165
+
+                       [0.18428263068199158, 0.9111326336860657]
+64 nodes, dropout 0.1, lr 0.001, batch size 64
+                                     precision    recall  f1-score   support
+
+           0       0.90      0.90      0.90      2250
+           1       0.92      0.92      0.92      2915
+
+    accuracy                           0.91      5165
+   macro avg       0.91      0.91      0.91      5165
+weighted avg       0.91      0.91      0.91      5165
+
+                       [0.17120108008384705, 0.912681519985199]
+64 nodes, dropout 0.1, lr 0.001, batch size 128
+                                     precision    recall  f1-score   support
+
+           0       0.90      0.89      0.90      2250
+           1       0.92      0.92      0.92      2915
+
+    accuracy                           0.91      5165
+   macro avg       0.91      0.91      0.91      5165
+weighted avg       0.91      0.91      0.91      5165
+
+                       [0.18107444047927856, 0.9090029001235962]
+64 nodes, dropout 0.1, lr 0.0005, batch size 16
+                                     precision    recall  f1-score   support
+
+           0       0.89      0.91      0.90      2250
+           1       0.93      0.91      0.92      2915
+
+    accuracy                           0.91      5165
+   macro avg       0.91      0.91      0.91      5165
+weighted avg       0.91      0.91      0.91      5165
+
+                       [0.18686947226524353, 0.910358190536499]
+64 nodes, dropout 0.1, lr 0.0005, batch size 32
+                                     precision    recall  f1-score   support
+
+           0       0.90      0.90      0.90      2250
+           1       0.92      0.92      0.92      2915
+
+    accuracy                           0.91      5165
+   macro avg       0.91      0.91      0.91      5165
+weighted avg       0.91      0.91      0.91      5165
+
+                       [0.15959109365940094, 0.912681519985199]
+64 nodes, dropout 0.1, lr 0.0005, batch size 64
+                                     precision    recall  f1-score   support
+
+           0       0.90      0.90      0.90      2250
+           1       0.92      0.92      0.92      2915
+
+    accuracy                           0.91      5165
+   macro avg       0.91      0.91      0.91      5165
+weighted avg       0.91      0.91      0.91      5165
+
+                       [0.16031600534915924, 0.910358190536499]
+64 nodes, dropout 0.1, lr 0.0005, batch size 128
+                                     precision    recall  f1-score   support
+
+           0       0.89      0.91      0.90      2250
+           1       0.93      0.92      0.92      2915
+
+    accuracy                           0.91      5165
+   macro avg       0.91      0.91      0.91      5165
+weighted avg       0.92      0.91      0.91      5165
+
+                       [0.16591207683086395, 0.9148112535476685]
+64 nodes, dropout 0.1, lr 0.0001, batch size 16
+                                     precision    recall  f1-score   support
+
+           0       0.91      0.90      0.90      2250
+           1       0.92      0.93      0.93      2915
+
+    accuracy                           0.92      5165
+   macro avg       0.91      0.91      0.91      5165
+weighted avg       0.92      0.92      0.92      5165
+
+                       [0.16791625320911407, 0.9151984453201294]
+64 nodes, dropout 0.1, lr 0.0001, batch size 32
+                                     precision    recall  f1-score   support
+
+           0       0.91      0.89      0.90      2250
+           1       0.91      0.93      0.92      2915
+
+    accuracy                           0.91      5165
+   macro avg       0.91      0.91      0.91      5165
+weighted avg       0.91      0.91      0.91      5165
+
+                       [0.18457308411598206, 0.9099709391593933]
+64 nodes, dropout 0.1, lr 0.0001, batch size 64
+                                     precision    recall  f1-score   support
+
+           0       0.88      0.87      0.87      2250
+           1       0.90      0.90      0.90      2915
+
+    accuracy                           0.89      5165
+   macro avg       0.89      0.89      0.89      5165
+weighted avg       0.89      0.89      0.89      5165
+
+                       [0.23622992634773254, 0.8909971117973328]
+64 nodes, dropout 0.1, lr 0.0001, batch size 128
+                                     precision    recall  f1-score   support
+
+           0       0.85      0.82      0.83      2250
+           1       0.86      0.89      0.87      2915
+
+    accuracy                           0.86      5165
+   macro avg       0.86      0.85      0.85      5165
+weighted avg       0.86      0.86      0.86      5165
+
+                       [0.313603013753891, 0.8565343618392944]
+64 nodes, dropout 0.2, lr 0.01, batch size 16
+                                     precision    recall  f1-score   support
+
+           0       0.95      0.86      0.90      2250
+           1       0.90      0.96      0.93      2915
+
+    accuracy                           0.92      5165
+   macro avg       0.92      0.91      0.92      5165
+weighted avg       0.92      0.92      0.92      5165
+
+                       [0.20552180707454681, 0.9196515083312988]
+64 nodes, dropout 0.2, lr 0.01, batch size 32
+                                     precision    recall  f1-score   support
+
+           0       0.92      0.88      0.90      2250
+           1       0.91      0.94      0.93      2915
+
+    accuracy                           0.92      5165
+   macro avg       0.92      0.91      0.91      5165
+weighted avg       0.92      0.92      0.92      5165
+
+                       [0.15760529041290283, 0.9157792925834656]
+64 nodes, dropout 0.2, lr 0.01, batch size 64
+                                     precision    recall  f1-score   support
+
+           0       0.87      0.95      0.91      2250
+           1       0.96      0.89      0.92      2915
+
+    accuracy                           0.92      5165
+   macro avg       0.91      0.92      0.91      5165
+weighted avg       0.92      0.92      0.92      5165
+
+                       [0.14198458194732666, 0.9151984453201294]
+64 nodes, dropout 0.2, lr 0.01, batch size 128
+                                     precision    recall  f1-score   support
+
+           0       0.94      0.87      0.90      2250
+           1       0.90      0.96      0.93      2915
+
+    accuracy                           0.92      5165
+   macro avg       0.92      0.91      0.91      5165
+weighted avg       0.92      0.92      0.92      5165
+
+                       [0.1362231820821762, 0.9167473316192627]
+64 nodes, dropout 0.2, lr 0.005, batch size 16
+                                     precision    recall  f1-score   support
+
+           0       0.88      0.93      0.90      2250
+           1       0.94      0.90      0.92      2915
+
+    accuracy                           0.91      5165
+   macro avg       0.91      0.92      0.91      5165
+weighted avg       0.92      0.91      0.91      5165
+
+                       [0.1662752777338028, 0.9138431549072266]
+64 nodes, dropout 0.2, lr 0.005, batch size 32
+                                     precision    recall  f1-score   support
+
+           0       0.89      0.93      0.91      2250
+           1       0.94      0.91      0.93      2915
+
+    accuracy                           0.92      5165
+   macro avg       0.92      0.92      0.92      5165
+weighted avg       0.92      0.92      0.92      5165
+
+                       [0.13679225742816925, 0.9188770651817322]
+64 nodes, dropout 0.2, lr 0.005, batch size 64
+                                     precision    recall  f1-score   support
+
+           0       0.90      0.91      0.90      2250
+           1       0.93      0.93      0.93      2915
+
+    accuracy                           0.92      5165
+   macro avg       0.92      0.92      0.92      5165
+weighted avg       0.92      0.92      0.92      5165
+
+                       [0.1305159330368042, 0.9171345829963684]
+64 nodes, dropout 0.2, lr 0.005, batch size 128
+                                     precision    recall  f1-score   support
+
+           0       0.91      0.90      0.91      2250
+           1       0.93      0.93      0.93      2915
+
+    accuracy                           0.92      5165
+   macro avg       0.92      0.92      0.92      5165
+weighted avg       0.92      0.92      0.92      5165
+
+                       [0.17487365007400513, 0.9175217747688293]
+64 nodes, dropout 0.2, lr 0.001, batch size 16
+                                     precision    recall  f1-score   support
+
+           0       0.91      0.90      0.91      2250
+           1       0.92      0.93      0.93      2915
+
+    accuracy                           0.92      5165
+   macro avg       0.92      0.92      0.92      5165
+weighted avg       0.92      0.92      0.92      5165
+
+                       [0.1443057358264923, 0.9186834692955017]
+64 nodes, dropout 0.2, lr 0.001, batch size 32
+                                     precision    recall  f1-score   support
+
+           0       0.89      0.91      0.90      2250
+           1       0.93      0.92      0.92      2915
+
+    accuracy                           0.92      5165
+   macro avg       0.91      0.92      0.91      5165
+weighted avg       0.92      0.92      0.92      5165
+
+                       [0.1356644481420517, 0.9151984453201294]
+64 nodes, dropout 0.2, lr 0.001, batch size 64
+                                     precision    recall  f1-score   support
+
+           0       0.90      0.91      0.90      2250
+           1       0.93      0.92      0.93      2915
+
+    accuracy                           0.92      5165
+   macro avg       0.92      0.92      0.92      5165
+weighted avg       0.92      0.92      0.92      5165
+
+                       [0.14538368582725525, 0.9169409275054932]
+64 nodes, dropout 0.2, lr 0.001, batch size 128
+                                     precision    recall  f1-score   support
+
+           0       0.91      0.91      0.91      2250
+           1       0.93      0.93      0.93      2915
+
+    accuracy                           0.92      5165
+   macro avg       0.92      0.92      0.92      5165
+weighted avg       0.92      0.92      0.92      5165
+
+                       [0.1348496377468109, 0.9213939905166626]
+64 nodes, dropout 0.2, lr 0.0005, batch size 16
+                                     precision    recall  f1-score   support
+
+           0       0.93      0.88      0.90      2250
+           1       0.91      0.95      0.93      2915
+
+    accuracy                           0.92      5165
+   macro avg       0.92      0.91      0.92      5165
+weighted avg       0.92      0.92      0.92      5165
+
+                       [0.1392105370759964, 0.9188770651817322]
+64 nodes, dropout 0.2, lr 0.0005, batch size 32
+                                     precision    recall  f1-score   support
+
+           0       0.91      0.90      0.91      2250
+           1       0.93      0.93      0.93      2915
+
+    accuracy                           0.92      5165
+   macro avg       0.92      0.92      0.92      5165
+weighted avg       0.92      0.92      0.92      5165
+
+                       [0.1432364135980606, 0.920232355594635]
+64 nodes, dropout 0.2, lr 0.0005, batch size 64
+                                     precision    recall  f1-score   support
+
+           0       0.90      0.91      0.90      2250
+           1       0.93      0.92      0.93      2915
+
+    accuracy                           0.92      5165
+   macro avg       0.91      0.92      0.91      5165
+weighted avg       0.92      0.92      0.92      5165
+
+                       [0.14262650907039642, 0.915972888469696]
+64 nodes, dropout 0.2, lr 0.0005, batch size 128
+                                     precision    recall  f1-score   support
+
+           0       0.89      0.92      0.90      2250
+           1       0.94      0.91      0.92      2915
+
+    accuracy                           0.92      5165
+   macro avg       0.91      0.92      0.91      5165
+weighted avg       0.92      0.92      0.92      5165
+
+                       [0.15449190139770508, 0.9153920412063599]
+64 nodes, dropout 0.2, lr 0.0001, batch size 16
+                                     precision    recall  f1-score   support
+
+           0       0.90      0.90      0.90      2250
+           1       0.92      0.93      0.92      2915
+
+    accuracy                           0.91      5165
+   macro avg       0.91      0.91      0.91      5165
+weighted avg       0.91      0.91      0.91      5165
+
+                       [0.17726273834705353, 0.912681519985199]
+64 nodes, dropout 0.2, lr 0.0001, batch size 32
+                                     precision    recall  f1-score   support
+
+           0       0.90      0.90      0.90      2250
+           1       0.92      0.92      0.92      2915
+
+    accuracy                           0.91      5165
+   macro avg       0.91      0.91      0.91      5165
+weighted avg       0.91      0.91      0.91      5165
+
+                       [0.1972067505121231, 0.9095837473869324]
+64 nodes, dropout 0.2, lr 0.0001, batch size 64
+                                     precision    recall  f1-score   support
+
+           0       0.88      0.87      0.88      2250
+           1       0.90      0.91      0.91      2915
+
+    accuracy                           0.89      5165
+   macro avg       0.89      0.89      0.89      5165
+weighted avg       0.89      0.89      0.89      5165
+
+                       [0.25087273120880127, 0.8944820761680603]
+64 nodes, dropout 0.2, lr 0.0001, batch size 128
+                                     precision    recall  f1-score   support
+
+           0       0.83      0.79      0.81      2250
+           1       0.84      0.87      0.86      2915
+
+    accuracy                           0.84      5165
+   macro avg       0.83      0.83      0.83      5165
+weighted avg       0.83      0.84      0.83      5165
+
+                       [0.35841235518455505, 0.8352371454238892]
+64 nodes, dropout 0.3, lr 0.01, batch size 16
+                                     precision    recall  f1-score   support
+
+           0       0.87      0.95      0.91      2250
+           1       0.96      0.89      0.92      2915
+
+    accuracy                           0.91      5165
+   macro avg       0.91      0.92      0.91      5165
+weighted avg       0.92      0.91      0.91      5165
+
+                       [0.1824282854795456, 0.9144240021705627]
+64 nodes, dropout 0.3, lr 0.01, batch size 32
+                                     precision    recall  f1-score   support
+
+           0       0.91      0.90      0.91      2250
+           1       0.92      0.93      0.93      2915
+
+    accuracy                           0.92      5165
+   macro avg       0.92      0.92      0.92      5165
+weighted avg       0.92      0.92      0.92      5165
+
+                       [0.18239262700080872, 0.9177153706550598]
+64 nodes, dropout 0.3, lr 0.01, batch size 64
+                                     precision    recall  f1-score   support
+
+           0       0.89      0.92      0.91      2250
+           1       0.94      0.91      0.93      2915
+
+    accuracy                           0.92      5165
+   macro avg       0.92      0.92      0.92      5165
+weighted avg       0.92      0.92      0.92      5165
+
+                       [0.14730608463287354, 0.9181026220321655]
+64 nodes, dropout 0.3, lr 0.01, batch size 128
+                                     precision    recall  f1-score   support
+
+           0       0.91      0.89      0.90      2250
+           1       0.92      0.93      0.93      2915
+
+    accuracy                           0.92      5165
+   macro avg       0.92      0.91      0.91      5165
+weighted avg       0.92      0.92      0.92      5165
+
+                       [0.13656176626682281, 0.9165537357330322]
+64 nodes, dropout 0.3, lr 0.005, batch size 16
+                                     precision    recall  f1-score   support
+
+           0       0.88      0.93      0.91      2250
+           1       0.95      0.91      0.93      2915
+
+    accuracy                           0.92      5165
+   macro avg       0.92      0.92      0.92      5165
+weighted avg       0.92      0.92      0.92      5165
+
+                       [0.1765596866607666, 0.9177153706550598]
+64 nodes, dropout 0.3, lr 0.005, batch size 32
+                                     precision    recall  f1-score   support
+
+           0       0.92      0.89      0.91      2250
+           1       0.92      0.94      0.93      2915
+
+    accuracy                           0.92      5165
+   macro avg       0.92      0.92      0.92      5165
+weighted avg       0.92      0.92      0.92      5165
+
+                       [0.14677587151527405, 0.9196515083312988]
+64 nodes, dropout 0.3, lr 0.005, batch size 64
+                                     precision    recall  f1-score   support
+
+           0       0.90      0.92      0.91      2250
+           1       0.94      0.92      0.93      2915
+
+    accuracy                           0.92      5165
+   macro avg       0.92      0.92      0.92      5165
+weighted avg       0.92      0.92      0.92      5165
+
+                       [0.1321570724248886, 0.9229428768157959]
+64 nodes, dropout 0.3, lr 0.005, batch size 128
+                                     precision    recall  f1-score   support
+
+           0       0.92      0.91      0.91      2250
+           1       0.93      0.94      0.93      2915
+
+    accuracy                           0.92      5165
+   macro avg       0.92      0.92      0.92      5165
+weighted avg       0.92      0.92      0.92      5165
+
+                       [0.13072723150253296, 0.9223620295524597]
+64 nodes, dropout 0.3, lr 0.001, batch size 16
+                                     precision    recall  f1-score   support
+
+           0       0.90      0.92      0.91      2250
+           1       0.93      0.92      0.93      2915
+
+    accuracy                           0.92      5165
+   macro avg       0.92      0.92      0.92      5165
+weighted avg       0.92      0.92      0.92      5165
+
+                       [0.13610559701919556, 0.9181026220321655]
+64 nodes, dropout 0.3, lr 0.001, batch size 32
+                                     precision    recall  f1-score   support
+
+           0       0.93      0.88      0.91      2250
+           1       0.91      0.95      0.93      2915
+
+    accuracy                           0.92      5165
+   macro avg       0.92      0.92      0.92      5165
+weighted avg       0.92      0.92      0.92      5165
+
+                       [0.13152959942817688, 0.9223620295524597]
+64 nodes, dropout 0.3, lr 0.001, batch size 64
+                                     precision    recall  f1-score   support
+
+           0       0.93      0.88      0.90      2250
+           1       0.91      0.95      0.93      2915
+
+    accuracy                           0.92      5165
+   macro avg       0.92      0.91      0.92      5165
+weighted avg       0.92      0.92      0.92      5165
+
+                       [0.13953016698360443, 0.9184898138046265]
+64 nodes, dropout 0.3, lr 0.001, batch size 128
+                                     precision    recall  f1-score   support
+
+           0       0.90      0.92      0.91      2250
+           1       0.93      0.93      0.93      2915
+
+    accuracy                           0.92      5165
+   macro avg       0.92      0.92      0.92      5165
+weighted avg       0.92      0.92      0.92      5165
+
+                       [0.13601547479629517, 0.9210067987442017]
+64 nodes, dropout 0.3, lr 0.0005, batch size 16
+                                     precision    recall  f1-score   support
+
+           0       0.91      0.90      0.90      2250
+           1       0.92      0.93      0.93      2915
+
+    accuracy                           0.92      5165
+   macro avg       0.92      0.91      0.92      5165
+weighted avg       0.92      0.92      0.92      5165
+
+                       [0.13604219257831573, 0.9167473316192627]
+64 nodes, dropout 0.3, lr 0.0005, batch size 32
+                                     precision    recall  f1-score   support
+
+           0       0.91      0.92      0.91      2250
+           1       0.94      0.93      0.93      2915
+
+    accuracy                           0.92      5165
+   macro avg       0.92      0.92      0.92      5165
+weighted avg       0.92      0.92      0.92      5165
+
+                       [0.13663487136363983, 0.9233301281929016]
+64 nodes, dropout 0.3, lr 0.0005, batch size 64
+                                     precision    recall  f1-score   support
+
+           0       0.92      0.89      0.90      2250
+           1       0.92      0.94      0.93      2915
+
+    accuracy                           0.92      5165
+   macro avg       0.92      0.92      0.92      5165
+weighted avg       0.92      0.92      0.92      5165
+
+                       [0.14162074029445648, 0.918296217918396]
+64 nodes, dropout 0.3, lr 0.0005, batch size 128
+                                     precision    recall  f1-score   support
+
+           0       0.91      0.91      0.91      2250
+           1       0.93      0.93      0.93      2915
+
+    accuracy                           0.92      5165
+   macro avg       0.92      0.92      0.92      5165
+weighted avg       0.92      0.92      0.92      5165
+
+                       [0.1508515328168869, 0.9217812418937683]
+64 nodes, dropout 0.3, lr 0.0001, batch size 16
+                                     precision    recall  f1-score   support
+
+           0       0.90      0.91      0.90      2250
+           1       0.93      0.92      0.92      2915
+
+    accuracy                           0.92      5165
+   macro avg       0.91      0.91      0.91      5165
+weighted avg       0.92      0.92      0.92      5165
+
+                       [0.18269656598567963, 0.9153920412063599]
+64 nodes, dropout 0.3, lr 0.0001, batch size 32
+                                     precision    recall  f1-score   support
+
+           0       0.89      0.88      0.89      2250
+           1       0.91      0.92      0.91      2915
+
+    accuracy                           0.90      5165
+   macro avg       0.90      0.90      0.90      5165
+weighted avg       0.90      0.90      0.90      5165
+
+                       [0.21666133403778076, 0.9030009508132935]
+64 nodes, dropout 0.3, lr 0.0001, batch size 64
+                                     precision    recall  f1-score   support
+
+           0       0.87      0.84      0.85      2250
+           1       0.88      0.90      0.89      2915
+
+    accuracy                           0.87      5165
+   macro avg       0.87      0.87      0.87      5165
+weighted avg       0.87      0.87      0.87      5165
+
+                       [0.28418228030204773, 0.8749274015426636]
+64 nodes, dropout 0.3, lr 0.0001, batch size 128
+                                     precision    recall  f1-score   support
+
+           0       0.78      0.81      0.79      2250
+           1       0.85      0.82      0.83      2915
+
+    accuracy                           0.82      5165
+   macro avg       0.81      0.82      0.81      5165
+weighted avg       0.82      0.82      0.82      5165
+
+                       [0.3965040147304535, 0.8166505098342896]
+128 nodes, dropout 0, lr 0.01, batch size 16
+                                     precision    recall  f1-score   support
+
+           0       0.93      0.84      0.89      2250
+           1       0.89      0.95      0.92      2915
+
+    accuracy                           0.91      5165
+   macro avg       0.91      0.90      0.90      5165
+weighted avg       0.91      0.91      0.91      5165
+
+                       [0.5331404209136963, 0.9057115316390991]
+128 nodes, dropout 0, lr 0.01, batch size 32
+                                     precision    recall  f1-score   support
+
+           0       0.91      0.86      0.88      2250
+           1       0.90      0.93      0.91      2915
+
+    accuracy                           0.90      5165
+   macro avg       0.90      0.90      0.90      5165
+weighted avg       0.90      0.90      0.90      5165
+
+                       [0.9349107146263123, 0.9000968337059021]
+128 nodes, dropout 0, lr 0.01, batch size 64
+                                     precision    recall  f1-score   support
+
+           0       0.86      0.88      0.87      2250
+           1       0.90      0.89      0.90      2915
+
+    accuracy                           0.89      5165
+   macro avg       0.88      0.88      0.88      5165
+weighted avg       0.89      0.89      0.89      5165
+
+                       [1.0221714973449707, 0.8857696056365967]
+128 nodes, dropout 0, lr 0.01, batch size 128
+                                     precision    recall  f1-score   support
+
+           0       0.88      0.88      0.88      2250
+           1       0.91      0.90      0.91      2915
+
+    accuracy                           0.89      5165
+   macro avg       0.89      0.89      0.89      5165
+weighted avg       0.89      0.89      0.89      5165
+
+                       [0.7106346487998962, 0.8946756720542908]
+128 nodes, dropout 0, lr 0.005, batch size 16
+                                     precision    recall  f1-score   support
+
+           0       0.86      0.88      0.87      2250
+           1       0.91      0.88      0.90      2915
+
+    accuracy                           0.88      5165
+   macro avg       0.88      0.88      0.88      5165
+weighted avg       0.88      0.88      0.88      5165
+
+                       [1.2047911882400513, 0.8840271234512329]
+128 nodes, dropout 0, lr 0.005, batch size 32
+                                     precision    recall  f1-score   support
+
+           0       0.88      0.86      0.87      2250
+           1       0.90      0.91      0.90      2915
+
+    accuracy                           0.89      5165
+   macro avg       0.89      0.89      0.89      5165
+weighted avg       0.89      0.89      0.89      5165
+
+                       [1.0434330701828003, 0.8898354172706604]
+128 nodes, dropout 0, lr 0.005, batch size 64
+                                     precision    recall  f1-score   support
+
+           0       0.88      0.88      0.88      2250
+           1       0.91      0.91      0.91      2915
+
+    accuracy                           0.90      5165
+   macro avg       0.90      0.90      0.90      5165
+weighted avg       0.90      0.90      0.90      5165
+
+                       [0.8213789463043213, 0.8975798487663269]
+128 nodes, dropout 0, lr 0.005, batch size 128
+                                     precision    recall  f1-score   support
+
+           0       0.88      0.88      0.88      2250
+           1       0.90      0.91      0.91      2915
+
+    accuracy                           0.89      5165
+   macro avg       0.89      0.89      0.89      5165
+weighted avg       0.89      0.89      0.89      5165
+
+                       [0.7900248169898987, 0.8946756720542908]
+128 nodes, dropout 0, lr 0.001, batch size 16
+                                     precision    recall  f1-score   support
+
+           0       0.86      0.89      0.88      2250
+           1       0.91      0.89      0.90      2915
+
+    accuracy                           0.89      5165
+   macro avg       0.89      0.89      0.89      5165
+weighted avg       0.89      0.89      0.89      5165
+
+                       [0.850816011428833, 0.8911907076835632]
+128 nodes, dropout 0, lr 0.001, batch size 32
+                                     precision    recall  f1-score   support
+
+           0       0.89      0.85      0.87      2250
+           1       0.89      0.92      0.90      2915
+
+    accuracy                           0.89      5165
+   macro avg       0.89      0.88      0.89      5165
+weighted avg       0.89      0.89      0.89      5165
+
+                       [0.6979575753211975, 0.8884801268577576]
+128 nodes, dropout 0, lr 0.001, batch size 64
+                                     precision    recall  f1-score   support
+
+           0       0.88      0.86      0.87      2250
+           1       0.89      0.91      0.90      2915
+
+    accuracy                           0.89      5165
+   macro avg       0.88      0.88      0.88      5165
+weighted avg       0.89      0.89      0.89      5165
+
+                       [0.6440389752388, 0.885382354259491]
+128 nodes, dropout 0, lr 0.001, batch size 128
+                                     precision    recall  f1-score   support
+
+           0       0.89      0.85      0.87      2250
+           1       0.89      0.92      0.90      2915
+
+    accuracy                           0.89      5165
+   macro avg       0.89      0.89      0.89      5165
+weighted avg       0.89      0.89      0.89      5165
+
+                       [0.5705490112304688, 0.8900290131568909]
+128 nodes, dropout 0, lr 0.0005, batch size 16
+                                     precision    recall  f1-score   support
+
+           0       0.87      0.87      0.87      2250
+           1       0.90      0.90      0.90      2915
+
+    accuracy                           0.89      5165
+   macro avg       0.89      0.89      0.89      5165
+weighted avg       0.89      0.89      0.89      5165
+
+                       [0.6502331495285034, 0.8875120878219604]
+128 nodes, dropout 0, lr 0.0005, batch size 32
+                                     precision    recall  f1-score   support
+
+           0       0.87      0.88      0.87      2250
+           1       0.90      0.90      0.90      2915
+
+    accuracy                           0.89      5165
+   macro avg       0.89      0.89      0.89      5165
+weighted avg       0.89      0.89      0.89      5165
+
+                       [0.5127520561218262, 0.8904162645339966]
+128 nodes, dropout 0, lr 0.0005, batch size 64
+                                     precision    recall  f1-score   support
+
+           0       0.86      0.90      0.88      2250
+           1       0.92      0.89      0.90      2915
+
+    accuracy                           0.89      5165
+   macro avg       0.89      0.89      0.89      5165
+weighted avg       0.89      0.89      0.89      5165
+
+                       [0.49502450227737427, 0.8913843035697937]
+128 nodes, dropout 0, lr 0.0005, batch size 128
+                                     precision    recall  f1-score   support
+
+           0       0.89      0.86      0.88      2250
+           1       0.89      0.92      0.91      2915
+
+    accuracy                           0.89      5165
+   macro avg       0.89      0.89      0.89      5165
+weighted avg       0.89      0.89      0.89      5165
+
+                       [0.5307128429412842, 0.8935140371322632]
+128 nodes, dropout 0, lr 0.0001, batch size 16
+                                     precision    recall  f1-score   support
+
+           0       0.86      0.87      0.86      2250
+           1       0.90      0.89      0.89      2915
+
+    accuracy                           0.88      5165
+   macro avg       0.88      0.88      0.88      5165
+weighted avg       0.88      0.88      0.88      5165
+
+                       [0.45548075437545776, 0.8811229467391968]
+128 nodes, dropout 0, lr 0.0001, batch size 32
+                                     precision    recall  f1-score   support
+
+           0       0.87      0.88      0.87      2250
+           1       0.91      0.90      0.90      2915
+
+    accuracy                           0.89      5165
+   macro avg       0.89      0.89      0.89      5165
+weighted avg       0.89      0.89      0.89      5165
+
+                       [0.3584054112434387, 0.8892545700073242]
+128 nodes, dropout 0, lr 0.0001, batch size 64
+                                     precision    recall  f1-score   support
+
+           0       0.86      0.90      0.88      2250
+           1       0.92      0.89      0.90      2915
+
+    accuracy                           0.89      5165
+   macro avg       0.89      0.89      0.89      5165
+weighted avg       0.89      0.89      0.89      5165
+
+                       [0.29358750581741333, 0.8937076330184937]
+128 nodes, dropout 0, lr 0.0001, batch size 128
+                                     precision    recall  f1-score   support
+
+           0       0.87      0.88      0.87      2250
+           1       0.91      0.90      0.90      2915
+
+    accuracy                           0.89      5165
+   macro avg       0.89      0.89      0.89      5165
+weighted avg       0.89      0.89      0.89      5165
+
+                       [0.26622623205184937, 0.8886737823486328]
+128 nodes, dropout 0.1, lr 0.01, batch size 16
+                                     precision    recall  f1-score   support
+
+           0       0.97      0.83      0.90      2287
+           1       0.88      0.98      0.93      2878
+
+    accuracy                           0.91      5165
+   macro avg       0.93      0.91      0.91      5165
+weighted avg       0.92      0.91      0.91      5165
+
+                       [0.22941303253173828, 0.9142304062843323]
+128 nodes, dropout 0.1, lr 0.01, batch size 32
+                                     precision    recall  f1-score   support
+
+           0       0.94      0.85      0.89      2287
+           1       0.89      0.96      0.92      2878
+
+    accuracy                           0.91      5165
+   macro avg       0.91      0.90      0.91      5165
+weighted avg       0.91      0.91      0.91      5165
+
+                       [0.2816607356071472, 0.9082284569740295]
+128 nodes, dropout 0.1, lr 0.01, batch size 64
+                                     precision    recall  f1-score   support
+
+           0       0.88      0.91      0.89      2287
+           1       0.93      0.90      0.91      2878
+
+    accuracy                           0.90      5165
+   macro avg       0.90      0.90      0.90      5165
+weighted avg       0.90      0.90      0.90      5165
+
+                       [0.3348066508769989, 0.9037753939628601]
+128 nodes, dropout 0.1, lr 0.01, batch size 128
+                                     precision    recall  f1-score   support
+
+           0       0.89      0.89      0.89      2287
+           1       0.91      0.92      0.92      2878
+
+    accuracy                           0.91      5165
+   macro avg       0.90      0.90      0.90      5165
+weighted avg       0.91      0.91      0.91      5165
+
+                       [0.2894408404827118, 0.9053242802619934]
+128 nodes, dropout 0.1, lr 0.005, batch size 16
+                                     precision    recall  f1-score   support
+
+           0       0.89      0.89      0.89      2287
+           1       0.92      0.91      0.91      2878
+
+    accuracy                           0.90      5165
+   macro avg       0.90      0.90      0.90      5165
+weighted avg       0.90      0.90      0.90      5165
+
+                       [0.34090134501457214, 0.9041626453399658]
+128 nodes, dropout 0.1, lr 0.005, batch size 32
+                                     precision    recall  f1-score   support
+
+           0       0.90      0.88      0.89      2287
+           1       0.91      0.93      0.92      2878
+
+    accuracy                           0.91      5165
+   macro avg       0.91      0.90      0.91      5165
+weighted avg       0.91      0.91      0.91      5165
+
+                       [0.3632570207118988, 0.9066795706748962]
+128 nodes, dropout 0.1, lr 0.005, batch size 64
+                                     precision    recall  f1-score   support
+
+           0       0.89      0.88      0.89      2287
+           1       0.91      0.92      0.91      2878
+
+    accuracy                           0.90      5165
+   macro avg       0.90      0.90      0.90      5165
+weighted avg       0.90      0.90      0.90      5165
+
+                       [0.3973413407802582, 0.9006776213645935]
+128 nodes, dropout 0.1, lr 0.005, batch size 128
+                                     precision    recall  f1-score   support
+
+           0       0.88      0.90      0.89      2287
+           1       0.92      0.90      0.91      2878
+
+    accuracy                           0.90      5165
+   macro avg       0.90      0.90      0.90      5165
+weighted avg       0.90      0.90      0.90      5165
+
+                       [0.3452160656452179, 0.9012584686279297]
+128 nodes, dropout 0.1, lr 0.001, batch size 16
+                                     precision    recall  f1-score   support
+
+           0       0.89      0.89      0.89      2287
+           1       0.92      0.91      0.91      2878
+
+    accuracy                           0.90      5165
+   macro avg       0.90      0.90      0.90      5165
+weighted avg       0.90      0.90      0.90      5165
+
+                       [0.3814970850944519, 0.902807354927063]
+128 nodes, dropout 0.1, lr 0.001, batch size 32
+                                     precision    recall  f1-score   support
+
+           0       0.89      0.89      0.89      2287
+           1       0.92      0.91      0.91      2878
+
+    accuracy                           0.90      5165
+   macro avg       0.90      0.90      0.90      5165
+weighted avg       0.90      0.90      0.90      5165
+
+                       [0.3322335481643677, 0.902420163154602]
+128 nodes, dropout 0.1, lr 0.001, batch size 64
+                                     precision    recall  f1-score   support
+
+           0       0.89      0.89      0.89      2287
+           1       0.91      0.91      0.91      2878
+
+    accuracy                           0.90      5165
+   macro avg       0.90      0.90      0.90      5165
+weighted avg       0.90      0.90      0.90      5165
+
+                       [0.33186420798301697, 0.9020329117774963]
+128 nodes, dropout 0.1, lr 0.001, batch size 128
+                                     precision    recall  f1-score   support
+
+           0       0.88      0.91      0.89      2287
+           1       0.93      0.90      0.91      2878
+
+    accuracy                           0.90      5165
+   macro avg       0.90      0.91      0.90      5165
+weighted avg       0.91      0.90      0.91      5165
+
+                       [0.2683864235877991, 0.9049370884895325]
+128 nodes, dropout 0.1, lr 0.0005, batch size 16
+                                     precision    recall  f1-score   support
+
+           0       0.89      0.89      0.89      2287
+           1       0.91      0.91      0.91      2878
+
+    accuracy                           0.90      5165
+   macro avg       0.90      0.90      0.90      5165
+weighted avg       0.90      0.90      0.90      5165
+
+                       [0.3048419654369354, 0.9016457200050354]
+128 nodes, dropout 0.1, lr 0.0005, batch size 32
+                                     precision    recall  f1-score   support
+
+           0       0.89      0.89      0.89      2287
+           1       0.91      0.91      0.91      2878
+
+    accuracy                           0.90      5165
+   macro avg       0.90      0.90      0.90      5165
+weighted avg       0.90      0.90      0.90      5165
+
+                       [0.2898290753364563, 0.9049370884895325]
+128 nodes, dropout 0.1, lr 0.0005, batch size 64
+                                     precision    recall  f1-score   support
+
+           0       0.89      0.90      0.89      2287
+           1       0.92      0.91      0.91      2878
+
+    accuracy                           0.91      5165
+   macro avg       0.90      0.90      0.90      5165
+weighted avg       0.91      0.91      0.91      5165
+
+                       [0.2507408559322357, 0.9053242802619934]
+128 nodes, dropout 0.1, lr 0.0005, batch size 128
+                                     precision    recall  f1-score   support
+
+           0       0.90      0.89      0.89      2287
+           1       0.91      0.92      0.92      2878
+
+    accuracy                           0.91      5165
+   macro avg       0.91      0.90      0.90      5165
+weighted avg       0.91      0.91      0.91      5165
+
+                       [0.21980923414230347, 0.9060987234115601]
+128 nodes, dropout 0.1, lr 0.0001, batch size 16
+                                     precision    recall  f1-score   support
+
+           0       0.90      0.89      0.90      2287
+           1       0.92      0.92      0.92      2878
+
+    accuracy                           0.91      5165
+   macro avg       0.91      0.91      0.91      5165
+weighted avg       0.91      0.91      0.91      5165
+
+                       [0.19122691452503204, 0.91074538230896]
+128 nodes, dropout 0.1, lr 0.0001, batch size 32
+                                     precision    recall  f1-score   support
+
+           0       0.90      0.88      0.89      2287
+           1       0.91      0.92      0.91      2878
+
+    accuracy                           0.90      5165
+   macro avg       0.90      0.90      0.90      5165
+weighted avg       0.90      0.90      0.90      5165
+
+                       [0.19383296370506287, 0.9031946063041687]
+128 nodes, dropout 0.1, lr 0.0001, batch size 64
+                                     precision    recall  f1-score   support
+
+           0       0.89      0.90      0.89      2287
+           1       0.92      0.91      0.91      2878
+
+    accuracy                           0.91      5165
+   macro avg       0.90      0.90      0.90      5165
+weighted avg       0.91      0.91      0.91      5165
+
+                       [0.19860877096652985, 0.9053242802619934]
+128 nodes, dropout 0.1, lr 0.0001, batch size 128
+                                     precision    recall  f1-score   support
+
+           0       0.89      0.87      0.88      2287
+           1       0.90      0.92      0.91      2878
+
+    accuracy                           0.90      5165
+   macro avg       0.90      0.89      0.89      5165
+weighted avg       0.90      0.90      0.90      5165
+
+                       [0.22022850811481476, 0.8956437706947327]
+128 nodes, dropout 0.2, lr 0.01, batch size 16
+                                     precision    recall  f1-score   support
+
+           0       0.97      0.80      0.87      2287
+           1       0.86      0.98      0.91      2878
+
+    accuracy                           0.90      5165
+   macro avg       0.91      0.89      0.89      5165
+weighted avg       0.91      0.90      0.90      5165
+
+                       [0.36309152841567993, 0.8983542919158936]
+128 nodes, dropout 0.2, lr 0.01, batch size 32
+                                     precision    recall  f1-score   support
+
+           0       0.94      0.86      0.90      2287
+           1       0.90      0.96      0.93      2878
+
+    accuracy                           0.92      5165
+   macro avg       0.92      0.91      0.91      5165
+weighted avg       0.92      0.92      0.92      5165
+
+                       [0.22423891723155975, 0.9163601398468018]
+128 nodes, dropout 0.2, lr 0.01, batch size 64
+                                     precision    recall  f1-score   support
+
+           0       0.91      0.89      0.90      2287
+           1       0.91      0.93      0.92      2878
+
+    accuracy                           0.91      5165
+   macro avg       0.91      0.91      0.91      5165
+weighted avg       0.91      0.91      0.91      5165
+
+                       [0.1998489797115326, 0.9095837473869324]
+128 nodes, dropout 0.2, lr 0.01, batch size 128
+                                     precision    recall  f1-score   support
+
+           0       0.89      0.91      0.90      2287
+           1       0.92      0.91      0.92      2878
+
+    accuracy                           0.91      5165
+   macro avg       0.91      0.91      0.91      5165
+weighted avg       0.91      0.91      0.91      5165
+
+                       [0.20597107708454132, 0.9072604179382324]
+128 nodes, dropout 0.2, lr 0.005, batch size 16
+                                     precision    recall  f1-score   support
+
+           0       0.93      0.87      0.90      2287
+           1       0.90      0.95      0.92      2878
+
+    accuracy                           0.91      5165
+   macro avg       0.92      0.91      0.91      5165
+weighted avg       0.91      0.91      0.91      5165
+
+                       [0.28529253602027893, 0.9130687117576599]
+128 nodes, dropout 0.2, lr 0.005, batch size 32
+                                     precision    recall  f1-score   support
+
+           0       0.89      0.90      0.90      2287
+           1       0.92      0.91      0.92      2878
+
+    accuracy                           0.91      5165
+   macro avg       0.91      0.91      0.91      5165
+weighted avg       0.91      0.91      0.91      5165
+
+                       [0.23681004345417023, 0.9088093042373657]
+128 nodes, dropout 0.2, lr 0.005, batch size 64
+                                     precision    recall  f1-score   support
+
+           0       0.89      0.92      0.90      2287
+           1       0.93      0.91      0.92      2878
+
+    accuracy                           0.91      5165
+   macro avg       0.91      0.91      0.91      5165
+weighted avg       0.91      0.91      0.91      5165
+
+                       [0.2001272439956665, 0.9122942686080933]
+128 nodes, dropout 0.2, lr 0.005, batch size 128
+                                     precision    recall  f1-score   support
+
+           0       0.89      0.90      0.89      2287
+           1       0.92      0.91      0.91      2878
+
+    accuracy                           0.91      5165
+   macro avg       0.90      0.90      0.90      5165
+weighted avg       0.91      0.91      0.91      5165
+
+                       [0.19819027185440063, 0.9055179357528687]
+128 nodes, dropout 0.2, lr 0.001, batch size 16
+                                     precision    recall  f1-score   support
+
+           0       0.90      0.90      0.90      2287
+           1       0.92      0.92      0.92      2878
+
+    accuracy                           0.91      5165
+   macro avg       0.91      0.91      0.91      5165
+weighted avg       0.91      0.91      0.91      5165
+
+                       [0.21484705805778503, 0.9115198254585266]
+128 nodes, dropout 0.2, lr 0.001, batch size 32
+                                     precision    recall  f1-score   support
+
+           0       0.89      0.90      0.89      2287
+           1       0.92      0.91      0.91      2878
+
+    accuracy                           0.90      5165
+   macro avg       0.90      0.90      0.90      5165
+weighted avg       0.90      0.90      0.90      5165
+
+                       [0.21680107712745667, 0.9035817980766296]
+128 nodes, dropout 0.2, lr 0.001, batch size 64
+                                     precision    recall  f1-score   support
+
+           0       0.90      0.88      0.89      2287
+           1       0.91      0.92      0.92      2878
+
+    accuracy                           0.91      5165
+   macro avg       0.91      0.90      0.90      5165
+weighted avg       0.91      0.91      0.91      5165
+
+                       [0.2281540483236313, 0.9053242802619934]
+128 nodes, dropout 0.2, lr 0.001, batch size 128
+                                     precision    recall  f1-score   support
+
+           0       0.89      0.89      0.89      2287
+           1       0.91      0.92      0.91      2878
+
+    accuracy                           0.90      5165
+   macro avg       0.90      0.90      0.90      5165
+weighted avg       0.90      0.90      0.90      5165
+
+                       [0.2184692770242691, 0.9022265076637268]
+128 nodes, dropout 0.2, lr 0.0005, batch size 16
+                                     precision    recall  f1-score   support
+
+           0       0.90      0.89      0.89      2287
+           1       0.91      0.93      0.92      2878
+
+    accuracy                           0.91      5165
+   macro avg       0.91      0.91      0.91      5165
+weighted avg       0.91      0.91      0.91      5165
+
+                       [0.2119186967611313, 0.9076476097106934]
+128 nodes, dropout 0.2, lr 0.0005, batch size 32
+                                     precision    recall  f1-score   support
+
+           0       0.89      0.91      0.90      2287
+           1       0.93      0.91      0.92      2878
+
+    accuracy                           0.91      5165
+   macro avg       0.91      0.91      0.91      5165
+weighted avg       0.91      0.91      0.91      5165
+
+                       [0.2008863091468811, 0.9086157083511353]
+128 nodes, dropout 0.2, lr 0.0005, batch size 64
+                                     precision    recall  f1-score   support
+
+           0       0.89      0.89      0.89      2287
+           1       0.91      0.91      0.91      2878
+
+    accuracy                           0.90      5165
+   macro avg       0.90      0.90      0.90      5165
+weighted avg       0.90      0.90      0.90      5165
+
+                       [0.19984054565429688, 0.9041626453399658]
+128 nodes, dropout 0.2, lr 0.0005, batch size 128
+                                     precision    recall  f1-score   support
+
+           0       0.90      0.89      0.89      2287
+           1       0.91      0.92      0.92      2878
+
+    accuracy                           0.91      5165
+   macro avg       0.91      0.90      0.90      5165
+weighted avg       0.91      0.91      0.91      5165
+
+                       [0.1820473074913025, 0.9062923789024353]
+128 nodes, dropout 0.2, lr 0.0001, batch size 16
+                                     precision    recall  f1-score   support
+
+           0       0.90      0.90      0.90      2287
+           1       0.92      0.92      0.92      2878
+
+    accuracy                           0.91      5165
+   macro avg       0.91      0.91      0.91      5165
+weighted avg       0.91      0.91      0.91      5165
+
+                       [0.1728530079126358, 0.9111326336860657]
+128 nodes, dropout 0.2, lr 0.0001, batch size 32
+                                     precision    recall  f1-score   support
+
+           0       0.89      0.91      0.90      2287
+           1       0.93      0.91      0.92      2878
+
+    accuracy                           0.91      5165
+   macro avg       0.91      0.91      0.91      5165
+weighted avg       0.91      0.91      0.91      5165
+
+                       [0.17789824306964874, 0.9113262295722961]
+128 nodes, dropout 0.2, lr 0.0001, batch size 64
+                                     precision    recall  f1-score   support
+
+           0       0.90      0.89      0.90      2287
+           1       0.91      0.92      0.92      2878
+
+    accuracy                           0.91      5165
+   macro avg       0.91      0.91      0.91      5165
+weighted avg       0.91      0.91      0.91      5165
+
+                       [0.19527140259742737, 0.9078412652015686]
+128 nodes, dropout 0.2, lr 0.0001, batch size 128
+                                     precision    recall  f1-score   support
+
+           0       0.89      0.88      0.89      2287
+           1       0.90      0.92      0.91      2878
+
+    accuracy                           0.90      5165
+   macro avg       0.90      0.90      0.90      5165
+weighted avg       0.90      0.90      0.90      5165
+
+                       [0.2242986559867859, 0.8993223905563354]
+128 nodes, dropout 0.3, lr 0.01, batch size 16
+                                     precision    recall  f1-score   support
+
+           0       0.97      0.77      0.86      2287
+           1       0.84      0.98      0.91      2878
+
+    accuracy                           0.89      5165
+   macro avg       0.91      0.88      0.88      5165
+weighted avg       0.90      0.89      0.88      5165
+
+                       [0.31322425603866577, 0.8869312405586243]
+128 nodes, dropout 0.3, lr 0.01, batch size 32
+                                     precision    recall  f1-score   support
+
+           0       0.93      0.88      0.90      2287
+           1       0.91      0.95      0.93      2878
+
+    accuracy                           0.92      5165
+   macro avg       0.92      0.91      0.91      5165
+weighted avg       0.92      0.92      0.92      5165
+
+                       [0.24439238011837006, 0.9163601398468018]
+128 nodes, dropout 0.3, lr 0.01, batch size 64
+                                     precision    recall  f1-score   support
+
+           0       0.94      0.87      0.90      2287
+           1       0.90      0.95      0.93      2878
+
+    accuracy                           0.92      5165
+   macro avg       0.92      0.91      0.91      5165
+weighted avg       0.92      0.92      0.92      5165
+
+                       [0.16264119744300842, 0.9165537357330322]
+128 nodes, dropout 0.3, lr 0.01, batch size 128
+                                     precision    recall  f1-score   support
+
+           0       0.94      0.87      0.90      2287
+           1       0.91      0.95      0.93      2878
+
+    accuracy                           0.92      5165
+   macro avg       0.92      0.91      0.92      5165
+weighted avg       0.92      0.92      0.92      5165
+
+                       [0.16040325164794922, 0.918296217918396]
+128 nodes, dropout 0.3, lr 0.005, batch size 16
+                                     precision    recall  f1-score   support
+
+           0       0.93      0.88      0.90      2287
+           1       0.91      0.95      0.93      2878
+
+    accuracy                           0.92      5165
+   macro avg       0.92      0.91      0.91      5165
+weighted avg       0.92      0.92      0.92      5165
+
+                       [0.2159043848514557, 0.915972888469696]
+128 nodes, dropout 0.3, lr 0.005, batch size 32
+                                     precision    recall  f1-score   support
+
+           0       0.88      0.92      0.90      2287
+           1       0.94      0.90      0.92      2878
+
+    accuracy                           0.91      5165
+   macro avg       0.91      0.91      0.91      5165
+weighted avg       0.91      0.91      0.91      5165
+
+                       [0.19326291978359222, 0.9101645946502686]
+128 nodes, dropout 0.3, lr 0.005, batch size 64
+                                     precision    recall  f1-score   support
+
+           0       0.90      0.90      0.90      2287
+           1       0.92      0.92      0.92      2878
+
+    accuracy                           0.91      5165
+   macro avg       0.91      0.91      0.91      5165
+weighted avg       0.91      0.91      0.91      5165
+
+                       [0.16263167560100555, 0.9080348610877991]
+128 nodes, dropout 0.3, lr 0.005, batch size 128
+                                     precision    recall  f1-score   support
+
+           0       0.89      0.92      0.90      2287
+           1       0.94      0.91      0.92      2878
+
+    accuracy                           0.91      5165
+   macro avg       0.91      0.91      0.91      5165
+weighted avg       0.91      0.91      0.91      5165
+
+                       [0.1578262597322464, 0.912681519985199]
+128 nodes, dropout 0.3, lr 0.001, batch size 16
+                                     precision    recall  f1-score   support
+
+           0       0.90      0.90      0.90      2287
+           1       0.92      0.92      0.92      2878
+
+    accuracy                           0.91      5165
+   macro avg       0.91      0.91      0.91      5165
+weighted avg       0.91      0.91      0.91      5165
+
+                       [0.17010140419006348, 0.9109390377998352]
+128 nodes, dropout 0.3, lr 0.001, batch size 32
+                                     precision    recall  f1-score   support
+
+           0       0.89      0.91      0.90      2287
+           1       0.93      0.91      0.92      2878
+
+    accuracy                           0.91      5165
+   macro avg       0.91      0.91      0.91      5165
+weighted avg       0.91      0.91      0.91      5165
+
+                       [0.16556790471076965, 0.9099709391593933]
+128 nodes, dropout 0.3, lr 0.001, batch size 64
+                                     precision    recall  f1-score   support
+
+           0       0.91      0.89      0.90      2287
+           1       0.91      0.93      0.92      2878
+
+    accuracy                           0.91      5165
+   macro avg       0.91      0.91      0.91      5165
+weighted avg       0.91      0.91      0.91      5165
+
+                       [0.16647206246852875, 0.9105517864227295]
+128 nodes, dropout 0.3, lr 0.001, batch size 128
+                                     precision    recall  f1-score   support
+
+           0       0.89      0.91      0.90      2287
+           1       0.93      0.91      0.92      2878
+
+    accuracy                           0.91      5165
+   macro avg       0.91      0.91      0.91      5165
+weighted avg       0.91      0.91      0.91      5165
+
+                       [0.16533257067203522, 0.9101645946502686]
+128 nodes, dropout 0.3, lr 0.0005, batch size 16
+                                     precision    recall  f1-score   support
+
+           0       0.91      0.90      0.90      2287
+           1       0.92      0.93      0.92      2878
+
+    accuracy                           0.91      5165
+   macro avg       0.91      0.91      0.91      5165
+weighted avg       0.91      0.91      0.91      5165
+
+                       [0.16414475440979004, 0.9130687117576599]
+128 nodes, dropout 0.3, lr 0.0005, batch size 32
+                                     precision    recall  f1-score   support
+
+           0       0.89      0.91      0.90      2287
+           1       0.93      0.91      0.92      2878
+
+    accuracy                           0.91      5165
+   macro avg       0.91      0.91      0.91      5165
+weighted avg       0.91      0.91      0.91      5165
+
+                       [0.16619066894054413, 0.9121006727218628]
+128 nodes, dropout 0.3, lr 0.0005, batch size 64
+                                     precision    recall  f1-score   support
+
+           0       0.90      0.89      0.90      2287
+           1       0.92      0.92      0.92      2878
+
+    accuracy                           0.91      5165
+   macro avg       0.91      0.91      0.91      5165
+weighted avg       0.91      0.91      0.91      5165
+
+                       [0.16338787972927094, 0.9099709391593933]
+128 nodes, dropout 0.3, lr 0.0005, batch size 128
+                                     precision    recall  f1-score   support
+
+           0       0.91      0.89      0.90      2287
+           1       0.92      0.93      0.92      2878
+
+    accuracy                           0.91      5165
+   macro avg       0.91      0.91      0.91      5165
+weighted avg       0.91      0.91      0.91      5165
+
+                       [0.16148258745670319, 0.9130687117576599]
+128 nodes, dropout 0.3, lr 0.0001, batch size 16
+                                     precision    recall  f1-score   support
+
+           0       0.89      0.91      0.90      2287
+           1       0.93      0.91      0.92      2878
+
+    accuracy                           0.91      5165
+   macro avg       0.91      0.91      0.91      5165
+weighted avg       0.91      0.91      0.91      5165
+
+                       [0.16983209550380707, 0.910358190536499]
+128 nodes, dropout 0.3, lr 0.0001, batch size 32
+                                     precision    recall  f1-score   support
+
+           0       0.90      0.90      0.90      2287
+           1       0.92      0.92      0.92      2878
+
+    accuracy                           0.91      5165
+   macro avg       0.91      0.91      0.91      5165
+weighted avg       0.91      0.91      0.91      5165
+
+                       [0.17366914451122284, 0.9105517864227295]
+128 nodes, dropout 0.3, lr 0.0001, batch size 64
+                                     precision    recall  f1-score   support
+
+           0       0.90      0.89      0.89      2287
+           1       0.91      0.92      0.92      2878
+
+    accuracy                           0.91      5165
+   macro avg       0.91      0.90      0.91      5165
+weighted avg       0.91      0.91      0.91      5165
+
+                       [0.2081577479839325, 0.9064859747886658]
+128 nodes, dropout 0.3, lr 0.0001, batch size 128
+                                     precision    recall  f1-score   support
+
+           0       0.89      0.86      0.87      2287
+           1       0.89      0.92      0.90      2878
+
+    accuracy                           0.89      5165
+   macro avg       0.89      0.89      0.89      5165
+weighted avg       0.89      0.89      0.89      5165
+
+                       [0.2461215704679489, 0.8909971117973328]
