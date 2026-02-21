@@ -1,3 +1,11 @@
+#TO FIX
+# REMOVE
+# shot_diff OR xg_diff
+# AND
+# penalty_diff OR penalty_min_diff
+
+
+
 import pandas as pd
 import numpy as np
 from sklearn.preprocessing import StandardScaler
@@ -307,3 +315,7 @@ weights_df.to_sql(
 
 conn.commit()
 conn.close()
+numeric_df = game_level.select_dtypes(include=[np.number])
+print(numeric_df.corr()["home_win"].sort_values(ascending=False))
+print(X.var())
+print(X.corr())
