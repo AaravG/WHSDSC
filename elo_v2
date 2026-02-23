@@ -1,0 +1,77 @@
+import sqlite3
+import pandas as pd
+import numpy as np
+
+# ==========================
+# CONFIG
+# ==========================
+DB_PATH = r"E:\Aarav PC Data\Code\WHSDSC\whl_2025.db"
+SOURCE_TABLE = "NN"
+TARGET_TABLE = "Elo_Optimized"
+INITIAL_RATING = 1500
+K_VALUES = range(1, 61, 1) # Testing 20, 25, 30, 35, 40, 45, 50
+
+# ==========================
+# CONNECT & LOAD
+# --------------------------
+conn = sqlite3.connect(DB_PATH)
+df = pd.read_sql(
+    f"SELECT game_id, home_team, away_team, home_win FROM {SOURCE_TABLE}",
+    conn
+)
+
+# New dataframe to store rowids and all different k-elo results
+output_df = pd.DataFrame({"game_id": df["game_id"]})
+correlations = {}
+
+# ==========================
+# ITERATIVE ELO CALCULATION
+# --------------------------
+teams_list = set(df["home_team"]).union(set(df["away_team"]))
+
+for k in K_VALUES:
+    elo = {team: INITIAL_RATING for team in teams_list}
+    h_elos = []
+    a_elos = []
+    
+    for _, row in df.iterrows():
+        home, away, result = row["home_team"], row["away_team"], row["home_win"]
+        
+        Rh, Ra = elo[home], elo[away]
+        
+        # Store PRE-game ratings
+        h_elos.append(Rh)
+        a_elos.append(Ra)
+        
+        # Expected score
+        Eh = 1 / (1 + 10 ** ((Ra - Rh) / 400))
+        
+        # Update ratings
+        elo[home] = Rh + k * (result - Eh)
+        elo[away] = Ra + k * ((1 - result) - (1 - Eh))
+    
+    # Calculate Elo Difference (Home - Away) for correlation check
+    elo_diff = np.array(h_elos) - np.array(a_elos)
+    corr = pd.Series(elo_diff).corr(df["home_win"])
+    correlations[k] = corr
+    
+    # Add to output dataframe
+    output_df[f"h_elo_k{k}"] = h_elos
+    output_df[f"a_elo_k{k}"] = a_elos
+
+# ==========================
+# RESULTS & DATABASE EXPORT
+# --------------------------
+print("\n--- Elo Correlation Analysis (Elo Diff vs Home Win) ---")
+for k, c in correlations.items():
+    print(f"K={k}: Correlation = {c:.4f}")
+
+# Find the best K
+best_k = max(correlations, key=correlations.get)
+print(f"\n🏆 Best K value: {best_k} with {correlations[best_k]:.4f} correlation.")
+
+# Save the new table to SQL
+output_df.to_sql(TARGET_TABLE, conn, if_exists='replace', index=False)
+
+conn.close()
+print(f"\n✓ Success: Results saved to table '{TARGET_TABLE}'.")

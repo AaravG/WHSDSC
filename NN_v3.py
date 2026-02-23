@@ -10,7 +10,7 @@ import time
 
 start_time = time.time()
 
-rolling = 5
+rolling = 10
 epochs = 100
 batch_size = 16
 lr = 0.0001
