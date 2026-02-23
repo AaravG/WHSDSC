@@ -9,7 +9,7 @@ tables = pd.read_sql(
 )
 
 with pd.ExcelWriter(
-    r"E:\Aarav PC Data\Code\WHSDSC\new_clean_whl_2025.xlsx",
+    r"E:\Aarav PC Data\Code\WHSDSC\whl_2025_phase_1a.xlsx",
     engine="openpyxl"
 ) as writer:
     for table in tables["name"]:
