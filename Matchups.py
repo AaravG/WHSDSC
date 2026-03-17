@@ -7,14 +7,25 @@ from sklearn.metrics import accuracy_score
 db_path = r"E:\Aarav PC Data\Code\WHSDSC\whl_2025.db"
 conn = sqlite3.connect(db_path)
 
-df_rankings = pd.read_sql("SELECT team, hybrid_score, elo_rating, composite_score FROM team_rankings_hybrid", conn)
 df_history = pd.read_sql("SELECT home_team, away_team, home_win FROM NN", conn)
 df_comp = pd.read_sql("SELECT home_team, away_team FROM Matchups", conn)
 
-# 2. LOOKUP MAPS
+# Change this line:
+# Updated SQL to include efficiency_score
+df_rankings = pd.read_sql("""
+    SELECT 
+        home_team as team, 
+        hybrid_score, 
+        current_elo as elo_rating, 
+        efficiency_score 
+    FROM final_rankings_hybrid_v5
+""", conn)
+
+# Update the lookup maps
 hybrid_map = dict(zip(df_rankings['team'], df_rankings['hybrid_score']))
 elo_map = dict(zip(df_rankings['team'], df_rankings['elo_rating']))
-comp_map = dict(zip(df_rankings['team'], df_rankings['composite_score']))
+# Map efficiency_score to the 'c_map' (Composite Map) variable
+comp_map = dict(zip(df_rankings['team'], df_rankings['efficiency_score']))
 
 # 3. TRAIN & EVALUATE MODELS
 history_data = []

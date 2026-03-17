@@ -11,23 +11,25 @@ warnings.filterwarnings("ignore", category=UserWarning)
 db_path = r"E:\Aarav PC Data\Code\WHSDSC\whl_2025.db"
 conn = sqlite3.connect(db_path)
 
-df_rankings = pd.read_sql(
-    "SELECT team, hybrid_score, elo_rating, composite_score FROM team_rankings_hybrid",
-    conn
-)
-df_history = pd.read_sql(
-    "SELECT home_team, away_team, home_win FROM NN",
-    conn
-)
-df_comp = pd.read_sql(
-    "SELECT home_team, away_team FROM Matchups",
-    conn
-)
+df_history = pd.read_sql("SELECT home_team, away_team, home_win FROM NN", conn)
+df_comp = pd.read_sql("SELECT home_team, away_team FROM Matchups", conn)
 
-# 2. LOOKUP MAPS
+# Change this line:
+df_rankings = pd.read_sql("""
+    SELECT 
+        home_team as team, 
+        hybrid_score, 
+        current_elo as elo_rating, 
+        efficiency_score 
+    FROM final_rankings_hybrid_v5
+""", conn)
+
+# Update the lookup maps to match the new column names:
 h_map = dict(zip(df_rankings['team'], df_rankings['hybrid_score']))
 e_map = dict(zip(df_rankings['team'], df_rankings['elo_rating']))
-c_map = dict(zip(df_rankings['team'], df_rankings['composite_score']))
+# Note: Since 'composite_score' was from an old version, you can either 
+# remove it or use 'efficiency_score' as its replacement:
+c_map = dict(zip(df_rankings['team'], df_rankings['efficiency_score']))
 
 # 3. DATA PREPARATION
 features = []
@@ -115,3 +117,36 @@ conn.commit()
 
 print("Phase 1A updated with Stratified Stacked Ensemble.")
 
+# ==========================
+# 8. ACCURACY JUDGEMENT (BACKTESTING)
+# ==========================
+from sklearn.metrics import accuracy_score, log_loss
+
+# 1. Individual Base Model Accuracies (using OOF predictions for fairness)
+acc_h = accuracy_score(y, (oof_preds[:, 0] >= 0.5).astype(int))
+acc_e = accuracy_score(y, (oof_preds[:, 1] >= 0.5).astype(int))
+acc_c = accuracy_score(y, (oof_preds[:, 2] >= 0.5).astype(int))
+
+# 2. Meta-Model (Stacked) Accuracy
+# We use the OOF preds to see how the meta-model would have performed on unseen data
+meta_oof_probs = meta_model.predict_proba(oof_preds)[:, 1]
+acc_meta = accuracy_score(y, (meta_oof_probs >= 0.5).astype(int))
+
+# 3. Log-Loss (Lower is better - measures probability calibration)
+loss_meta = log_loss(y, meta_oof_probs)
+
+print("\n" + "="*30)
+print(" MODEL PERFORMANCE SUMMARY")
+print("="*30)
+print(f"Hybrid Base Accuracy:     {acc_h:.2%}")
+print(f"Elo Base Accuracy:        {acc_e:.2%}")
+print(f"Efficiency Base Accuracy: {acc_c:.2%}")
+print("-" * 30)
+print(f"STACKED META-ACCURACY:    {acc_meta:.2%}")
+print(f"Stacked Log-Loss:         {loss_meta:.4f}")
+print("="*30)
+
+if acc_meta > max(acc_h, acc_e, acc_c):
+    print("STATUS: Meta-Model successfully improved predictive power.")
+else:
+    print("STATUS: Meta-Model performing at par with best base model.")
